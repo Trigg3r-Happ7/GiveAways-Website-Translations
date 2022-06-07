@@ -12,7 +12,7 @@ overview: require("../locales.config.js")["az"],
     },
     footer: {
       rights: 'Bütün hüquqlar qorunur.',
-      description: 'Discord'da ən yaxşı lotereya botu. Lotereya yaratmaqla sosial media hesablarınızı üzvi şəkildə təkmilləşdirin. sənin əlində...',
+      description: 'Discord/da ən yaxşı lotereya botu. Lotereya yaratmaqla sosial media hesablarınızı üzvi şəkildə təkmilləşdirin. sənin əlində...',
       menus: {
         first: {
           title: 'Əhəmiyyətli',
@@ -43,7 +43,7 @@ overview: require("../locales.config.js")["az"],
       someServices: 'bəzi xidmətlər qeyri-aktivdir!'
     },
     index: {
-      title: 'Discord/da ən yaxşı lotereya botu! ',
+      title: 'Discord-da ən yaxşı lotereya botu! ',
       description: 'Giveaways ilə siz sosial media hesablarınızı təkmilləşdirə və qabaqcıl lotereyalar yaradaraq üzvi artımlar əldə edə bilərsiniz!',
       buttons: {
         dashboard: 'idarəetmə paneli',
