@@ -25,7 +25,7 @@ module.exports = {
         },
       },
       second: {
-        title: "Award",
+        title: "GiveAways",
         items: {
           partners: "Les partenaires",
           team: "Équipe",
@@ -39,34 +39,34 @@ module.exports = {
         },
       },
     },
-    developedWith: "Développé avec ❤️ par Serity.",
+    developedWith: "Développé avec ❤️ par clqu & Swôth & édité par GiveAways Équipe.",
     allServices: "Tous les services sont en ligne.",
     someServices: "Certains services sont en panne.",
   },
   index: {
     title: "Le meilleur bot giveaway sur Discord.",
     description:
-      "En créant des cadeaux avancés avec Award, vous pouvez améliorer vos comptes de médias sociaux et gagner en visibilité organique !",
+      "En créant des cadeaux avancés avec GiveAways, vous pouvez améliorer vos comptes de médias sociaux et gagner en visibilité organique !",
     buttons: {
       dashboard: "Tableau de bord",
       support: "Serveur d'assistance",
       with_discord: "Se connecter avec Discord",
     },
     features: {
-      title: 'Pourquoi <span class="text-amber-500 font-bold">Award</span>',
-      description: 'Vous pouvez améliorer vos comptes de médias sociaux et obtenir une augmentation organique en créant des tirages au sort avancés avec Award!',
+      title: 'Pourquoi <span class="text-amber-500 font-bold">GiveAways</span>',
+      description: 'Vous pouvez améliorer vos comptes de médias sociaux et obtenir une augmentation organique en créant des tirages au sort avancés avec GiveAways!',
       buttonText: 'Ajouter au Discord',
       items: [
-          { icon: 'fal fa-star', title: 'Créer facilement un cadeau conditionnel', description: "Vous pouvez avoir les membres de vos rêves en peu de temps. Vous pouvez obtenir une augmentation organique en ouvrant des tirages au sort conditionnels en suivant vos comptes de médias sociaux tels que youtube, twitch, tiktok sur Award. Pourquoi ne pas essayer d'ouvrir une tombola pour plus d'informations ?"},
+          { icon: 'fal fa-star', title: 'Créer facilement un cadeau conditionnel', description: "Vous pouvez avoir les membres de vos rêves en peu de temps. Vous pouvez obtenir une augmentation organique en ouvrant des tirages au sort conditionnels en suivant vos comptes de médias sociaux tels que youtube, twitch, tiktok sur GiveAways. Pourquoi ne pas essayer d'ouvrir une tombola pour plus d'informations ?"},
           { icon: 'fal fa-star', title: 'Créez vos propres cadeaux', description: 'Vous pouvez rapidement ajouter le bot au serveur et créer et personnaliser votre propre tirage sur le site.Vous pouvez vérifier qui a participé au tirage en détail via le tableau de bord.' },
           { icon: 'fal fa-star', title: 'Découvrez les cadeaux', description: 'Vous pouvez participer au tirage au sort selon vous dans la section Découvrir et gagner des prix, et vous pouvez voir le temps restant et des informations détaillées sur le panneau.' },
           { icon: 'fal fa-star', title: 'Se sentir spécial', description: 'En achetant Boost, vous pouvez tirer plus de 20 tirages simultanés sur votre serveur, cependant, vous pouvez répéter et intégrer 20 fois sur un tirage. Vous pouvez le sécuriser en ajoutant un mot de passe à votre tirage au sort.' }
       ]
   },
   advanced: [
-      { placement: "left", imageUrl: 'https://i.imgur.com/YY3hwTn.png', title: 'Développez vos comptes', description: 'Avec Award, vous pouvez développer vos comptes de manière organique.'},
-      { placement: "right", imageUrl: 'https://i.imgur.com/5X0ha3F.png', title: 'Verrouillez vos tirages au sort', description: 'Chiffrez vos tirages au sort en privé avec le système de verrouillage de Award.' },
-      { placement: "left", imageUrl: 'https://i.imgur.com/RPomYws.png', title: "Développez votre serveur.", description: "Vous pouvez développer vos serveurs en ajoutant une condition d'invitation à leurs cadeaux." }
+      { placement: "left", imageUrl: 'https://i.imgur.com/twQBhV3.png', title: 'Développez vos comptes', description: 'Avec GiveAways, vous pouvez développer vos comptes de manière organique.'},
+      { placement: "right", imageUrl: 'https://i.imgur.com/aQFJbiI.png', title: 'Verrouillez vos tirages au sort', description: 'Chiffrez vos tirages au sort en privé avec le système de verrouillage de GiveAways.' },
+      { placement: "left", imageUrl: 'https://i.imgur.com/KsBUSAB.png', title: "Développez votre serveur.", description: "Vous pouvez développer vos serveurs en ajoutant une condition d'invitation à leurs cadeaux." }
   ],
     statistics: {
       chosen: 'Choisi par <span class="text-amber-500">{server_count}</span> guildes',
@@ -109,7 +109,7 @@ module.exports = {
   team: {
     title: "Dites bonjour aux héros !",
     description:
-      "Vous pouvez trouver tous ceux qui travaillent et contribuent <br> à Award. Un grand merci à notre équipe. <3",
+      "Vous pouvez trouver tous ceux qui travaillent et contribuent <br> à GiveAways. Un grand merci à notre équipe. <3",
     linkcordLang: "en",
     noWidget: "Aucun widget",
     roles: {
@@ -161,7 +161,7 @@ module.exports = {
       },
       invite: {
         title: "Nombre d'invitations requis",
-        description: "Déterminez le nombre d'invitations requises pour participer au tirage. (Ex : 3)"
+        description: "Déterminez le nombre d'invitations requises pour participer au tirage. (Ex : 3)"
       },
       presentation: {
         title: "Présentation",
@@ -204,7 +204,7 @@ module.exports = {
     connections: {
       title: "Connexions",
       description:
-        "Vous pouvez gérer les comptes de médias sociaux sur Award ici.",
+        "Vous pouvez gérer les comptes de médias sociaux sur GiveAways ici.",
       button: {
         logout: "Cliquez pour vous déconnecter",
         connect: "Connectez-vous à <b>{PROVIDER}</b>",
@@ -242,7 +242,7 @@ module.exports = {
     auditLog: {
       title: "Journal d'audit",
       description:
-        "Le journal d'audit des modifications apportées à Award sur ce serveur peut être consulté ici.",
+        "Le journal d'audit des modifications apportées à GiveAways sur ce serveur peut être consulté ici.",
       table: {
         user: "Utilisateur",
         date: "Date",

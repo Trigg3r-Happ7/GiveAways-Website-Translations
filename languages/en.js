@@ -24,7 +24,7 @@ module.exports = {
                 }
             },
             second: {
-                title: 'Award',
+                title: 'GiveAways',
                 items: {
                     partners: 'Partners',
                     team: 'Team'
@@ -38,33 +38,33 @@ module.exports = {
                 }
             },
         },
-        developedWith: 'Developed with ❤️ by Serity.',
+        developedWith: 'Developed with ❤️ by clqu & Swôth & Edited by GiveAways Team.',
         allServices: 'All services are online.',
         someServices: 'Some services are down.'
     },
     index: {
         title: 'The best giveaway bot on Discord.',
-        description: 'By creating advanced giveaways with Award, you can improve your social media accounts and gain organic lift!',
+        description: 'By creating advanced giveaways with GiveAways, you can improve your social media accounts and gain organic lift!',
         buttons: {
             dashboard: 'Dashboard',
             support: 'Support Server',
             with_discord: 'Login with Discord'
         },
         features: {
-            title: 'Why <span class="text-amber-500 font-bold">Award</span>',
-            description: 'With Award, you can improve your social media accounts and get organic increases by creating advanced sweepstakes!',
+            title: 'Why <span class="text-amber-500 font-bold">GiveAways</span>',
+            description: 'With GiveAways, you can improve your social media accounts and get organic increases by creating advanced sweepstakes!',
             buttonText: 'Add to Discord',
             items: [
-                 { icon: 'fal fa-star', title: 'Easily Create Conditional Giveaway', description: 'You can have the members of your dreams in a short time. You can get organic increase by opening conditional giveaway by following your social media accounts such as youtube, twitch, tiktok on Award. Why not try opening a raffle for more information?' },
+                 { icon: 'fal fa-star', title: 'Easily Create Conditional Giveaway', description: 'You can have the members of your dreams in a short time. You can get organic increase by opening conditional giveaway by following your social media accounts such as youtube, twitch, tiktok on GiveAways. Why not try opening a raffle for more information?' },
                  { icon: 'fal fa-star', title: 'Build Your Own Giveaways', description: 'You can quickly add the bot to the server and create and customize your own giveaway on the site. You can check who has participated in the giveaway in detail via the Dashboard.'},
                  { icon: 'fal fa-star', title: 'Discover Giveaways ', description: 'You can participate in the giveaway according to you in the Discover section and win prizes, and you can see the remaining time and detailed information on the panel.' },
                  { icon: 'fal fa-star', title: 'Self Feel Special', description: 'By purchasing Boost, you can giveaway more than 20 simultaneous giveaways on your server, however, you can repeat and embed 20 times on a giveaway. You can make it safe by adding a password to your giveaways.' }
             ]
         },
         advanced: [
-            { placement: "left", imageUrl: 'https://i.imgur.com/YY3hwTn.png', title: 'Grow your accounts', description: 'Develop and grow your accounts organically with Award.'},
-            { placement: "right", imageUrl: 'https://i.imgur.com/5X0ha3F.png', title: 'Lock your giveaways', description: "Privately encrypt your giveaways with Award's lock system." },
-            { placement: "left", imageUrl: 'https://i.imgur.com/RPomYws.png', title: 'Grow your server', description: "You can grow your servers faster by adding an invitation requirement to their giveaways." }
+            { placement: "left", imageUrl: 'https://i.imgur.com/twQBhV3.png', title: 'Grow your accounts', description: 'Develop and grow your accounts organically with GiveAways.'},
+            { placement: "right", imageUrl: 'https://i.imgur.com/aQFJbiI.png', title: 'Lock your giveaways', description: "Privately encrypt your giveaways with GiveAways's lock system." },
+            { placement: "left", imageUrl: 'https://i.imgur.com/KsBUSAB.png', title: 'Grow your server', description: "You can grow your servers faster by adding an invitation requirement to their giveaways." }
         ],
         statistics: {
             chosen: 'Chosen by <span class="text-amber-500">{server_count}</span> guilds',
@@ -104,7 +104,7 @@ module.exports = {
     },
     team: {
         title: 'Say hello to heroes!',
-        description: 'You can find everyone who works and contributes <br> to Award. Many thanks to our team. <3',
+        description: 'You can find everyone who works and contributes <br> to GiveAways. Many thanks to our team. <3',
         linkcordLang: 'en',
         noWidget: 'No Widget',
         roles: {
@@ -192,7 +192,7 @@ module.exports = {
         },
         connections: {
             title: 'Connections',
-            description: 'You can manage social media accounts on Award here.',
+            description: 'You can manage social media accounts on GiveAways here.',
             button: {
                 logout: 'Click to logout',
                 connect: 'Connect to <b>{PROVIDER}</b>',
@@ -228,7 +228,7 @@ module.exports = {
         },
         auditLog: {
             title: 'Audit Log',
-            description: 'Audit log of changes made to Award on this server can be seen here.',
+            description: 'Audit log of changes made to GiveAways on this server can be seen here.',
             table: {
                 user: 'User',
                 date: 'Date',
