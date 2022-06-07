@@ -1,5 +1,5 @@
 module.exports = {
-    overview: require("../locales.config.js")["az"],
+overview: require("../locales.config.js")["az"],
     navbar: {
       home: 'Əsas səhifə',
       dashboard: 'idarəetmə paneli',
