@@ -12,7 +12,7 @@ overview: require("../locales.config.js")["az"],
     },
     footer: {
       rights: 'Bütün hüquqlar qorunur.',
-      description: 'Discord\da ən yaxşı lotereya botu. Lotereya yaratmaqla sosial media hesablarınızı üzvi şəkildə təkmilləşdirin. sənin əlində...',
+      description: 'Discord'da ən yaxşı lotereya botu. Lotereya yaratmaqla sosial media hesablarınızı üzvi şəkildə təkmilləşdirin. sənin əlində...',
       menus: {
         first: {
           title: 'Əhəmiyyətli',
