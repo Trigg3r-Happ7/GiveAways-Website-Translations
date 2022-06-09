@@ -53,7 +53,7 @@ overview: require("../locales.config.js")["az"],
       features: {
         title: 'Niyə? <span class="text-amber-500 font-bold">hədiyyələr</span>',
         description: 'Giveaways ilə siz sosial media hesablarınızı təkmilləşdirə və qabaqcıl lotereyalar yaradaraq üzvi artımlar əldə edə bilərsiniz!',
-        buttonText: 'Discord\'a ekle',
+        buttonText: 'Discord-a ekle',
         items: [
           { icon: 'fal fa-star', title: 'Asanlıqla şərti lotereyalar yaradın', description: 'Xəyallarınızdakı üzvlərə qısa zamanda sahib ola bilərsiniz.Youtube,twitch,twitter kimi sosial media hesablarınızı Giveaways vasitəsilə izləyə və şərti tirajlar açaraq üzvi artım əldə edə bilərsiniz.Ətraflı məlumat üçün niyə lotereya açmağa cəhd etməyəsiniz?' },
           { icon: 'fal fa-star', title: 'Öz lotereyalarınızı yaradın', description: 'Siz tez bir zamanda botu serverə əlavə edə və saytda öz tirajınızı yarada və fərdiləşdirə bilərsiniz.Tirajda kimin iştirak etdiyini İdarə Paneli vasitəsilə ətraflı şəkildə yoxlaya bilərsiniz.'},
@@ -193,7 +193,7 @@ overview: require("../locales.config.js")["az"],
       },
       connections: {
         title: 'Bağlantılar',
-        description: 'Giveaways/ ilə əlaqələndirdiyiniz sosial media hesablarını buradan idarə edə bilərsiniz.',
+        description: 'Giveaways ilə əlaqələndirdiyiniz sosial media hesablarını buradan idarə edə bilərsiniz.',
         button: {
           logout: 'Çıxmaq üçün klikləyin',
           connect: '<b>{PROVIDER}</b> ilə əlaqə saxlayın',
@@ -229,7 +229,7 @@ overview: require("../locales.config.js")["az"],
       },
       auditLog: {
         title: 'audit jurnalı',
-        description: 'Bu serverdə Giveaways\'da edilən dəyişikliklərin audit jurnalına burada baxmaq olar.',
+        description: 'Bu serverdə Giveaways-da edilən dəyişikliklərin audit jurnalına burada baxmaq olar.',
         table: {
           user: 'İstifadəçi',
           date: 'Tarix',
