@@ -1,40 +1,40 @@
 module.exports = {
     overview: require("../locales.config.js")["de"],
     navbar: {
-        home: 'Zuhause',
-        dashboard: 'Kontrol Panel',
-        discover: 'Erkunde',
-        partners: 'Partners',
+        home: 'Startseite',
+        dashboard: 'Kontroll Panel',
+        discover: 'Erkunden',
+        partners: 'Partner',
         team: 'Team',
-        support: 'Hilfs Server',
+        support: 'Support Server',
         invite: 'Bot Hinzufügen',
         login: 'Einloggen'
     },
     footer: {
         rights: 'Alle rechte vorbehalten.',
-        description: 'Der beste Giveaway Bot auf Discord. Verbessern Sie Ihre Social-Media-Accounts organisch, indem Sie Giveaways erstellen. Es liegt in deinen Händen...',
+        description: 'Der beste Giveaway Bot auf Discord. Verbessern Sie Ihre Social-Media-Accounts organisch, indem Sie Giveaways kreieren. Es liegt in Ihren Händen...',
         menus: {
             first: {
                 title: 'Wichtig',
                 items: {
-                    home: 'Zuhause',
-                    dashboard: 'Kontrol Panel',
-                    support: 'Hilfs Server',
+                    home: 'Startseite',
+                    dashboard: 'Kontroll Panel',
+                    support: 'Support Server',
                     add: 'Bot Hinzufügen'
                 }
             },
             second: {
                 title: 'GiveAways',
                 items: {
-                    partners: 'Partners',
+                    partners: 'Partner',
                     team: 'Team'
                 }
             },
             third: {
                 title: 'Unternehmen',
                 items: {
-                    tos: 'Terms of Service',
-                    privacy: 'Privacy Policy'
+                    tos: 'Nutzungsbedingungen',
+                    privacy: 'Datenschutz'
                 }
             },
         },
@@ -46,8 +46,8 @@ module.exports = {
         title: 'Der beste Giveaway bot auf Discord.',
         description: 'Indem Sie mit GiveAways fortschrittliche Werbegeschenke erstellen, können Sie Ihre Social-Media-Konten verbessern und organischen Auftrieb gewinnen!',
         buttons: {
-            dashboard: 'Kontrol Panel',
-            support: 'Hilfs Server',
+            dashboard: 'Kontroll Panel',
+            support: 'Support Server',
             with_discord: 'Einloggen mit Discord'
         },
         features: {
