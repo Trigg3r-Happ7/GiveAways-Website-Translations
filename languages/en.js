@@ -138,7 +138,8 @@ module.exports = {
             },
             winners: {
                 title: 'Winners Count',
-                description: 'Enter the winners count'
+                description: 'Enter the winners count',
+                recommendet: 'Recommendet: 1 Winner'
             },
             channel: {
                 title: 'Channel',
