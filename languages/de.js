@@ -78,14 +78,14 @@ module.exports = {
     },
     discover: {
         title: 'Entdecken',
-        description: 'Entdecken Sie hier öffentliche Giveaways und nehmen Sie an den Giveaways teil, um den Preis zu finden und zu gewinnen, den Sie brauchen!',
+        description: 'Entdecken Sie hier öffentliche Verlosungen und nehmen Sie an Verlosungen teil, um den Preis zu finden und zu gewinnen, den Sie brauchen!',
         searchInput: 'Suche nach Geschenken, Titel, Servernamen usw.',
         settings: {
             title: 'Einstellungen',
-            description: 'Die Giveaways sind die Sortiereinstellungen.',
+            description: 'Die Verlosungen sind die Sortiereinstellungen.',
             amount: {
                 title: 'Wie viele?',
-                description: 'Hier können Sie die Anzahl der aufzulistenden Giveaways ändern.'
+                description: 'Hier können Sie die Anzahl der aufzulistenden Verlosungen ändern.'
             },
             sort: {
                 title: 'Sortierung',
@@ -100,11 +100,11 @@ module.exports = {
     },
     spotify: {
       not: 'Hört nichts auf Spotify.',
-      current: 'Hört sich auf Spotify etwas an.'
+      current: 'Hört sich etwas auf Spotify an.'
     },
     team: {
-        title: 'Sage hallo zu helden!',
-        description: 'Hier finden Sie alle, die an GiveAways mitarbeiten und mitgestalten <br>. Vielen Dank an unser Team. <3',
+        title: 'Lerne die Helden kennen!',
+        description: 'Hier finden Sie alle, die an GiveAways mitarbeiten und mitgestalten <br>. Vielen Dank an unser Team! <3',
         linkcordLang: 'en',
         noWidget: 'Kein Widget',
         roles: {
@@ -126,7 +126,7 @@ module.exports = {
             },
             description: {
                 title: 'Beschreibung',
-                description: 'Geben Sie Ihre Giveaway-Beschreibung ein'
+                description: 'Geben Sie Ihre Verlosungs-Beschreibung ein'
             },
             prize: {
                 title: 'Preis',
@@ -158,7 +158,7 @@ module.exports = {
             },
             presentation: {
                 title: 'Präsentation',
-                description: 'Wenn Sie "Privat" wählen, wird Ihr Werbegeschenk nicht in Discover erscheinen, wenn Sie jedoch "Öffentlich" wählen, wird Ihr Werbegeschenk in Discover erscheinen.'
+                description: 'Wenn Sie "Privat" wählen, wird Ihr Werbegeschenk nicht in "Entdecken" erscheinen, wenn Sie jedoch "Öffentlich" wählen, wird Ihr Werbegeschenk in "Entdecken" erscheinen.'
             },
         },
         button: "Einreichen",
