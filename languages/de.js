@@ -11,7 +11,7 @@ module.exports = {
         login: 'Einloggen'
     },
     footer: {
-        rights: 'Alle rechte vorbehalten.',
+        rights: 'Alle Rechte vorbehalten.',
         description: 'Der beste Giveaway Bot auf Discord. Verbessern Sie Ihre Social-Media-Accounts organisch, indem Sie Giveaways kreieren. Es liegt in Ihren Händen...',
         menus: {
             first: {
@@ -38,7 +38,7 @@ module.exports = {
                 }
             },
         },
-        developedWith: 'Entwickelt mit ❤️ von clqu & Swôth & Bearbeited von GiveAways Team.',
+        developedWith: 'Entwickelt mit ❤️ von clqu & Swôth & bearbeited vom GiveAways Team.',
         allServices: 'Alle Dienste sind online.',
         someServices: 'Ein paar Dienste sind offline.'
     },
@@ -56,23 +56,23 @@ module.exports = {
             buttonText: 'Zu Discord hinzufügen',
             items: [
                  { icon: 'fal fa-star', title: 'Einfaches Erstellen bedingter Werbegeschenke', description: 'Sie können die Mitglieder Ihrer Träume in kurzer Zeit haben. Sie können organischen Zuwachs erhalten, indem Sie ein bedingtes Werbegeschenk eröffnen, indem Sie Ihren sozialen Medienkonten wie YouTube, Twitch, TikTok, etc. auf GiveAways folgen. Warum versuchen Sie nicht, ein Gewinnspiel für mehr Informationen zu eröffnen?' },
-                 { icon: 'fal fa-star', title: 'Erstellen Sie Ihre eigenen Werbegeschenke', description: 'Sie können den Bot schnell zum Server hinzufügen und Ihr eigenes Giveaway auf der Website erstellen und anpassen. Über das Dashboard können Sie im Detail überprüfen, wer an der Werbeaktion teilgenommen hat.'},
-                 { icon: 'fal fa-star', title: 'Werbegeschenke entdecken ', description: 'Sie können an der Verlosung in der Rubrik Entdecken teilnehmen und Preise gewinnen, und Sie können die verbleibende Zeit als auch detaillierte Informationen auf dem Panel sehen.' },
+                 { icon: 'fal fa-star', title: 'Erstellen Sie Ihre eigenen Werbegeschenke', description: 'Sie können den Bot schnell zum Server hinzufügen und Ihre eigene Verlosung auf der Website erstellen und anpassen. Über das Dashboard können Sie im Detail überprüfen, wer an der Verlosung teilgenommen hat.'},
+                 { icon: 'fal fa-star', title: 'Werbegeschenke entdecken ', description: 'Sie können an der Verlosung in der Rubrik "Entdecken" teilnehmen und Preise gewinnen, und Sie können die verbleibende Zeit als auch detaillierte Informationen auf dem Panel sehen.' },
                  { icon: 'fal fa-star', title: 'Selbst Fühlen Special', description: 'Mit dem Kauf von Boost können Sie mehr als 20 Werbegeschenke gleichzeitig auf Ihrem Server verschenken, allerdings können Sie ein Werbegeschenk 20 Mal wiederholen und einbetten. Sie können Ihre Werbegeschenke mit einem Passwort schützen.' }
             ]
         },
         advanced: [
-            { placement: "left", imageUrl: 'https://i.imgur.com/twQBhV3.png', title: 'Vergrößern Sie Ihre Konten', description: 'Entwickeln Sie Ihre Konten weiter mit GiveAways organisch und lassen sie wachsen.'},
-            { placement: "right", imageUrl: 'https://i.imgur.com/aQFJbiI.png', title: 'Sperren Sie Ihre Werbegeschenke', description: "Verschlüsseln Sie Ihre privaten Giveaways mit GiveAways Verschlüsselungssystem." }
-            { placement: "left", imageUrl: 'https://i.imgur.com/KsBUSAB.png', title: 'Erweitern Sie Ihren Server', description: "Sie können Ihre Server schneller wachsen lassen, indem Sie eine Einladungspflicht zu ihren Werbegeschenken hinzufügen." 
+            { placement: "left", imageUrl: 'https://i.imgur.com/twQBhV3.png', title: 'Vergrößern Sie Ihre Konten', description: 'Entwickeln Sie Ihre Konten organisch weiter mit GiveAways und lassen sie wachsen.'},
+            { placement: "right", imageUrl: 'https://i.imgur.com/aQFJbiI.png', title: 'Sperren Sie Ihre Werbegeschenke', description: "Verschlüsseln Sie Ihre privaten Verlosungen mit GiveAways Verschlüsselungssystem." }
+            { placement: "left", imageUrl: 'https://i.imgur.com/KsBUSAB.png', title: 'Erweitern Sie Ihren Server', description: "Sie können Ihre Server schneller wachsen lassen, indem Sie eine Einladungspflicht zu Ihren Werbegeschenken hinzufügen." 
         ],
         statistics: {
             chosen: 'Ausgewählt von <span class="text-amber-500">{server_count}</span> Servern',
             labels: {
                 guilds: 'Server',
                 members: 'Nutzer',
-                giveaways: 'Giveaways
-                joins: 'Beitritte'
+                giveaways: 'Verlosungen',
+                joins: 'Beitritte',
             }
         }
     },
