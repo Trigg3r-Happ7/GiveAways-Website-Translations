@@ -138,7 +138,8 @@ module.exports = {
             },
             winners: {
                 title: 'Gewinner Anzahl',
-                description: 'Geben Sie die Anzahl der Gewinner ein'
+                description: 'Geben Sie die Anzahl der Gewinner ein',
+                recommendet: 'Empfohlen: 1 Gewinner'
             },
             channel: {
                 title: 'Kanal',
