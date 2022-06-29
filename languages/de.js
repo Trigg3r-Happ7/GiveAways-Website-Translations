@@ -158,13 +158,13 @@ module.exports = {
             },
             presentation: {
                 title: 'Präsentation',
-                description: 'Wenn Sie "Privat" wählen, wird Ihr Werbegeschenk nicht in "Entdecken" erscheinen, wenn Sie jedoch "Öffentlich" wählen, wird Ihr Werbegeschenk in "Entdecken" erscheinen.'
+                description: 'Wenn Sie "Privat" wählen, wird Ihre Verlosung nicht in "Entdecken" erscheinen, wenn Sie jedoch "Öffentlich" wählen, wird Ihre Verlosung in "Entdecken" erscheinen.'
             },
         },
         button: "Einreichen",
         presentationPrivate: 'Privat',
         presentationPublic: 'Öffentlich',
-        requirementsDropdownText: 'Sie suchen weitere Optionen? Schauen Sie sich Ihre Verbindungen an.',
+        requirementsDropdownText: 'Sie suchen weitere Optionen? Schauen Sie sich Ihre Verbindungen an!',
         presentationTippy: 'Wichtige Einstellung',
         unReachTippy: 'Dies ist Ihr Recht, ein Werbegeschenk zu eröffnen. Sie haben das Recht, {MORE} weitere Werbegeschenke zu öffnen.',
         reachTippy: 'Sie haben Ihr Giveaway-Limit erreicht.',
@@ -180,10 +180,10 @@ module.exports = {
             profile: 'Profil',
             guilds: 'Server',
             connections: 'Verbindungen',
-            panel: 'Admin Bereich',
+            panel: 'Administrator Bereich',
             redeem: 'Einlösen',
             logout: 'Ausloggen',
-            _profile: 'Sehe dein profil!',
+            _profile: 'Sehe dein Profil!',
             _guilds: 'Wähle einen Server!',
             _connections: 'Verwalten Sie Ihre Verbindungen!',
             _panel: 'Sehr, sehr geheim :)',
@@ -206,7 +206,7 @@ module.exports = {
             inputPlaceholder: 'Ihr Geschenkcode hier',
             button: 'Einlösen',
             didntWork: 'Der Code hat nicht funktioniert?',
-            success: '🎉 Herzlichen Glückwunsch! {COUNT} boosts wurden zu deinem accoun hinzugefügt!'
+            success: '🎉 Herzlichen Glückwunsch! {COUNT} Boosts wurden zu deinem Account hinzugefügt!'
         }
     },
     dashboard: {
@@ -223,7 +223,7 @@ module.exports = {
             total: 'Alle Werbegeschenke',
             active: 'Aktive Werbegeschenke',
             activeTippy: 'Boost zur Erhöhung des Limits!',
-            ended: 'Beendete Werbegeschänke',
+            ended: 'Beendete Verlosungen',
             participants: 'Insgesamte Teilnehmer'
         },
         auditLog: {
@@ -235,12 +235,12 @@ module.exports = {
                 action: 'Aktion',
                 message: 'Nachricht'
             },
-            boost: 'Hat den server geboostet!',
-            unboost: 'Hat den server ge unboosted!',
-            giveaway_delete: 'Hat ein Werbegeschenk gelöscht.',
-            giveaway_create: 'Hat ein Werbegeschenk gestartet.',
-            giveaway_finish: 'Werbegeschenk beendet.',
-            giveaway_join: 'Ist einem Werbegeschenk beigetreten.',
+            boost: 'Hat den Server geboostet!',
+            unboost: 'Hat den Server ge unboosted!',
+            giveaway_delete: 'Hat eine Verlosung gelöscht.',
+            giveaway_create: 'Hat eine Verlosung gestartet.',
+            giveaway_finish: 'Verlosung beendet.',
+            giveaway_join: 'Ist einer Verlosung beigetreten.',
             giveawaY_reroll: 'Hat ein Werbegeschenk neu ausgelosst.'
         },
     },
