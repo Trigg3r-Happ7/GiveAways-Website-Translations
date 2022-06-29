@@ -103,8 +103,8 @@ module.exports = {
       current: 'Listening on Spotify.'
     },
     team: {
-        title: 'Say hello to heroes!',
-        description: 'You can find everyone who works and contributes <br> to GiveAways. Many thanks to our team. <3',
+        title: 'Get to know the heroes!',
+        description: 'You can find everyone who works and contributes <br> to GiveAways. Many thanks to our team! <3',
         linkcordLang: 'en',
         noWidget: 'No Widget',
         roles: {
@@ -139,7 +139,7 @@ module.exports = {
             winners: {
                 title: 'Winners Count',
                 description: 'Enter the winners count',
-                recommendet: 'Recommendet: 1 Winner'
+                recommendet: 'Recommended: 1 Winner'
             },
             channel: {
                 title: 'Channel',
@@ -151,11 +151,11 @@ module.exports = {
             },
             role: {
                 title: 'Required Role',
-                description: 'Select the discord role that can participate in the giveaway.'
+                description: 'Select the Discord role that can participate in the giveaway.'
             },
             invite: {
                 title: 'Number of Invites Required',
-                description: 'Select how many invitations she needs to enter the giveaway. (Ex: 3)'
+                description: 'Select how many invitations members need to enter the giveaway. (Ex: 3)'
             },
             presentation: {
                 title: 'Presentation',
