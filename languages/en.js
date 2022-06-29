@@ -12,7 +12,7 @@ module.exports = {
     },
     footer: {
         rights: 'All rights reserved.',
-        description: 'The best giveaway bot on Discord. Organically improve your social media accounts by creating giveaways. It\'s in your hands...',
+        description: 'The best giveaway bot on Discord! Organically improves your social media accounts by creating giveaways. It\'s in your hands...',
         menus: {
             first: {
                 title: 'Important',
@@ -38,12 +38,12 @@ module.exports = {
                 }
             },
         },
-        developedWith: 'Developed with ❤️ by clqu & Swôth & Edited by GiveAways Team.',
+        developedWith: 'Developed with ❤️ by clqu & Swôth & edited by GiveAways Team.',
         allServices: 'All services are online.',
         someServices: 'Some services are down.'
     },
     index: {
-        title: 'The best giveaway bot on Discord.',
+        title: 'The best giveaway bot on Discord!',
         description: 'By creating advanced giveaways with GiveAways, you can improve your social media accounts and gain organic lift!',
         buttons: {
             dashboard: 'Dashboard',
