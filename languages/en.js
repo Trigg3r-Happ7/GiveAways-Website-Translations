@@ -11,6 +11,8 @@ module.exports = {
         login: 'Login'
     },
     footer: {
+        rights: 'All rights reserved!',
+        description: 'The best giveaway bot on Discord. Organically improve your social media accounts by creating giveaways. It\'s in your hands...',
         rights: 'All rights reserved.',
         description: 'The best giveaway bot on Discord! Organically improves your social media accounts by creating giveaways. It\'s in your hands...',
         menus: {
