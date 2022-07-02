@@ -12,7 +12,7 @@ module.exports = {
   },
   footer: {
     rights: 'Tüm hakları saklıdır.',
-    description: 'Discord\'daki en iyi çekiliş botu. Çekilişler oluşturarak sosyal medya hesaplarınızı organik olarak iyileştirin. senin elinde...',
+    description: 'Discord\'daki en iyi çekiliş botu. Giveaways\'ta organik çekilişler oluşturarak sosyal medya hesaplarınızı geliştirebilirsiniz. senin elinde..',
     menus: {
       first: {
         title: 'Önemli',
@@ -37,10 +37,16 @@ module.exports = {
           privacy: 'Gizlilik Politikası'
         }
       },
+      four: {
+        title: 'Giveaways botuna oy ver!',
+        items: {
+            topgg: 'Top.gg',
+        }
     },
-    developedWith: 'clqu & Swôth tarafından ❤️ ile geliştirildi & GiveAways Ekibi tarafından düzenlendi',
-    allServices: 'Tüm hizmetler çalışıyor.',
-    someServices: 'Bazı hizmetler çalışmıyor.'
+    },
+    developedWith: 'clqu & Swôth tarafından ❤ ile geliştirildi / Giveaways Ekibi tarafından düzenlendi',
+    allServices: 'Tüm hizmetler aktif.',
+    someServices: 'Bazı hizmetler deaktif.'
   },
   index: {
     title: 'Discord\'daki en iyi çekiliş botu!',
@@ -139,7 +145,8 @@ module.exports = {
       },
       winners: {
         title: 'Kazanan Sayısı',
-        description: 'Çekilişi kazanacak kullanıcı sayısını belirleyin'
+        description: 'Çekilişi kazanacak kullanıcı sayısını belirleyin',
+        recommendet: 'Önerilen : 1 kazanan'
       },
       channel: {
         title: 'Kanal',
@@ -181,13 +188,13 @@ module.exports = {
       profile: 'Profil',
       guilds: 'Sunucularım',
       connections: 'Bağlantılar',
-      panel: 'Panel',
+      panel: 'Yönetici Paneli',
       redeem: 'Kod Bozdur',
       logout: 'Çıkış yap',
       _profile: 'Profilini görüntüle!',
       _guilds: 'Sunucunu seç!',
       _connections: 'Bağlantıları yönet!',
-      _panel: 'Çok, çok gizli :)',
+      _panel: 'Giveaways\'ın yönetici paneli.',
       _redeem: 'Kod bozdur!',
       _logout: 'Website oturumunu sonlandır!'
     },
@@ -195,10 +202,10 @@ module.exports = {
       title: 'Bağlantılar',
       description: 'GiveAways\'e bağlamış olduğunuz sosyal medya hesaplarını buradan yönetebilirsiniz.',
       button: {
-        logout: 'Çıkış yapmak için tıkla',
-        connect: '<b>{PROVIDER}</b> ile bağlan',
-        connectMini: 'Bağlamak için tıkla',
-        logged: '<b>{ACCOUNT}</b> olarak bağlandınız'
+        logout: 'Hesabından çıkış yapmak için tıkla',
+        connect: '<b>{PROVIDER}</b> ile bağlanın',
+        connectMini: 'Hesabını Bağlamak için tıkla',
+        logged: '<b>{ACCOUNT}</b> olarak bağlandın'
       }
     },
     redeem: {
@@ -207,17 +214,17 @@ module.exports = {
       inputPlaceholder: 'Hediye kodu buraya',
       button: 'Kod Bozdur',
       didntWork: 'Kodunuz çalışmadı mı?',
-      success: '🎉 Harika! {COUNT} takviyeyi hesabına ekledik, güle güle bas :)'
+      success: '🎉 Harika! {COUNT} takviyeyi hesabına ekledik, güle güle kullan 😊'
     }
   },
   dashboard: {
     selectServer: {
-      title: 'Sunucu seç',
+      title: 'Sunucunu seç',
       description: 'Sunucunu bulamadın mı? <u>Tekrar giriş</u> yapmayı dene!',
       serverUnderText: 'Tıkla ve seç.',
       buttons: {
         manage: 'Yönet',
-        add: 'Kurulum'
+        add: 'Botu davet et'
       }
     },
     stats: {
@@ -229,7 +236,7 @@ module.exports = {
     },
     auditLog: {
       title: 'Denetim Kaydı',
-      description: 'Bu sunucuda GiveAways\'te üzerinde yapılan değişikliklerin denetim kaydı burada görülebilir.',
+      description: 'Bu sunucuda GiveAways\'ta üzerinde yapılan değişikliklerin denetim kaydı burada görülebilir.',
       table: {
         user: 'Kullanıcı',
         date: 'Tarih',

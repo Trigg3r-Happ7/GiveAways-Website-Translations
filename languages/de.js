@@ -1,53 +1,53 @@
 module.exports = {
     overview: require("../locales.config.js")["de"],
     navbar: {
-        home: 'Zuhause',
-        dashboard: 'Kontrol Panel',
-        discover: 'Erkunde',
-        partners: 'Partners',
+        home: 'Startseite',
+        dashboard: 'Kontroll Panel',
+        discover: 'Erkunden',
+        partners: 'Partner',
         team: 'Team',
-        support: 'Hilfs Server',
+        support: 'Support Server',
         invite: 'Bot Hinzufügen',
         login: 'Einloggen'
     },
     footer: {
-        rights: 'Alle rechte vorbehalten.',
-        description: 'Der beste Giveaway Bot auf Discord. Verbessern Sie Ihre Social-Media-Accounts organisch, indem Sie Giveaways erstellen. Es liegt in deinen Händen...',
+        rights: 'Alle Rechte vorbehalten.',
+        description: 'Der beste Giveaway Bot auf Discord! Verbessern Sie Ihre Social-Media-Accounts organisch, indem Sie Giveaways kreieren. Es liegt in Ihren Händen...',
         menus: {
             first: {
                 title: 'Wichtig',
                 items: {
-                    home: 'Zuhause',
-                    dashboard: 'Kontrol Panel',
-                    support: 'Hilfs Server',
+                    home: 'Startseite',
+                    dashboard: 'Kontroll Panel',
+                    support: 'Support Server',
                     add: 'Bot Hinzufügen'
                 }
             },
             second: {
                 title: 'GiveAways',
                 items: {
-                    partners: 'Partners',
+                    partners: 'Partner',
                     team: 'Team'
                 }
             },
             third: {
                 title: 'Unternehmen',
                 items: {
-                    tos: 'Terms of Service',
-                    privacy: 'Privacy Policy'
+                    tos: 'Nutzungsbedingungen',
+                    privacy: 'Datenschutz'
                 }
             },
         },
-        developedWith: 'Entwickelt mit ❤️ von clqu & Swôth & Bearbeited von GiveAways Team.',
-        allServices: 'Alle services sind online.',
-        someServices: 'Ein paar services sind offline.'
+        developedWith: 'Entwickelt mit ❤️ von clqu & Swôth & bearbeited vom GiveAways Team.',
+        allServices: 'Alle Dienste sind online.',
+        someServices: 'Ein paar Dienste sind offline.'
     },
     index: {
-        title: 'Der beste Giveaway bot auf Discord.',
+        title: 'Der beste Giveaway Bot auf Discord.',
         description: 'Indem Sie mit GiveAways fortschrittliche Werbegeschenke erstellen, können Sie Ihre Social-Media-Konten verbessern und organischen Auftrieb gewinnen!',
         buttons: {
-            dashboard: 'Kontrol Panel',
-            support: 'Hilfs Server',
+            dashboard: 'Kontroll Panel',
+            support: 'Support Server',
             with_discord: 'Einloggen mit Discord'
         },
         features: {
@@ -55,37 +55,37 @@ module.exports = {
             description: 'Mit GiveAways können Sie Ihre Social-Media-Konten verbessern und organische Zuwächse erzielen, indem Sie fortschrittliche Verlosungen erstellen!',
             buttonText: 'Zu Discord hinzufügen',
             items: [
-                 { icon: 'fal fa-star', title: 'Einfaches Erstellen bedingter Werbegeschenke', description: 'Sie können die Mitglieder Ihrer Träume in kurzer Zeit haben. Sie können organischen Zuwachs erhalten, indem Sie ein bedingtes Werbegeschenk eröffnen, indem Sie Ihren sozialen Medienkonten wie youtube, twitch, tiktok auf GiveAways folgen. Warum versuchen Sie nicht, ein Gewinnspiel für mehr Informationen zu eröffnen?' },
-                 { icon: 'fal fa-star', title: 'Erstellen Sie Ihre eigenen Werbegeschenke', description: 'Sie können den Bot schnell zum Server hinzufügen und Ihr eigenes Giveaway auf der Website erstellen und anpassen. Über das Dashboard können Sie im Detail überprüfen, wer an der Werbeaktion teilgenommen hat.'},
-                 { icon: 'fal fa-star', title: 'Werbegeschenke entdecken ', description: 'Sie können an der Verlosung in der Rubrik Entdecken teilnehmen und Preise gewinnen, und Sie können die verbleibende Zeit und detaillierte Informationen auf dem Panel sehen.' },
+                 { icon: 'fal fa-star', title: 'Einfaches Erstellen bedingter Werbegeschenke', description: 'Sie können die Mitglieder Ihrer Träume in kurzer Zeit haben. Sie können organischen Zuwachs erhalten, indem Sie ein bedingtes Werbegeschenk eröffnen, indem Sie Ihren sozialen Medienkonten wie YouTube, Twitch, TikTok, etc. auf GiveAways folgen. Warum versuchen Sie nicht, ein Gewinnspiel für mehr Informationen zu eröffnen?' },
+                 { icon: 'fal fa-star', title: 'Erstellen Sie Ihre eigenen Werbegeschenke', description: 'Sie können den Bot schnell zum Server hinzufügen und Ihre eigene Verlosung auf der Website erstellen und anpassen. Über das Dashboard können Sie im Detail überprüfen, wer an der Verlosung teilgenommen hat.'},
+                 { icon: 'fal fa-star', title: 'Werbegeschenke entdecken ', description: 'Sie können an der Verlosung in der Rubrik "Entdecken" teilnehmen und Preise gewinnen, und Sie können die verbleibende Zeit als auch detaillierte Informationen auf dem Panel sehen.' },
                  { icon: 'fal fa-star', title: 'Selbst Fühlen Special', description: 'Mit dem Kauf von Boost können Sie mehr als 20 Werbegeschenke gleichzeitig auf Ihrem Server verschenken, allerdings können Sie ein Werbegeschenk 20 Mal wiederholen und einbetten. Sie können Ihre Werbegeschenke mit einem Passwort schützen.' }
             ]
         },
         advanced: [
-            { placement: "left", imageUrl: 'https://i.imgur.com/twQBhV3.png', title: 'Vergrößern Sie Ihre Konten', description: 'Entwickeln Sie Ihre Konten mit GiveAways organisch und wachsen Sie.'},
-            { placement: "right", imageUrl: 'https://i.imgur.com/aQFJbiI.png', title: 'Sperren Sie Ihre Werbegeschenke', description: "Verschlüsseln Sie Ihre Werbegeschenke privat mit dem GiveAways-Schließsystem." },
-            { placement: "left", imageUrl: 'https://i.imgur.com/KsBUSAB.png', title: 'Erweitern Sie Ihren Server', description: "Sie können Ihre Server schneller wachsen lassen, indem Sie eine Einladungspflicht zu ihren Werbegeschenken hinzufügen." }
+            { placement: "left", imageUrl: 'https://i.imgur.com/twQBhV3.png', title: 'Vergrößern Sie Ihre Konten', description: 'Entwickeln Sie Ihre Konten organisch weiter mit GiveAways und lassen sie wachsen.'},
+            { placement: "right", imageUrl: 'https://i.imgur.com/aQFJbiI.png', title: 'Sperren Sie Ihre Werbegeschenke', description: "Verschlüsseln Sie Ihre privaten Verlosungen mit GiveAways Verschlüsselungssystem." }
+            { placement: "left", imageUrl: 'https://i.imgur.com/KsBUSAB.png', title: 'Erweitern Sie Ihren Server', description: "Sie können Ihre Server schneller wachsen lassen, indem Sie eine Einladungspflicht zu Ihren Werbegeschenken hinzufügen." 
         ],
         statistics: {
             chosen: 'Ausgewählt von <span class="text-amber-500">{server_count}</span> Servern',
             labels: {
                 guilds: 'Server',
                 members: 'Nutzer',
-                giveaways: 'Werbegeschenke',
-                joins: 'Beitritte'
+                giveaways: 'Verlosungen',
+                joins: 'Beitritte',
             }
         }
     },
     discover: {
         title: 'Entdecken',
-        description: 'Entdecken Sie hier öffentliche Verlosungen und nehmen Sie an den Verlosungen teil, um den Preis zu finden und zu gewinnen, den Sie brauchen!',
+        description: 'Entdecken Sie hier öffentliche Verlosungen und nehmen Sie an Verlosungen teil, um den Preis zu finden und zu gewinnen, den Sie brauchen!',
         searchInput: 'Suche nach Geschenken, Titel, Servernamen usw.',
         settings: {
             title: 'Einstellungen',
-            description: 'Die Werbegeschenke sind die Sortiereinstellungen.',
+            description: 'Die Verlosungen sind die Sortiereinstellungen.',
             amount: {
                 title: 'Wie viele?',
-                description: 'Hier können Sie die Anzahl der aufzulistenden Werbegeschenke ändern.'
+                description: 'Hier können Sie die Anzahl der aufzulistenden Verlosungen ändern.'
             },
             sort: {
                 title: 'Sortierung',
@@ -100,11 +100,11 @@ module.exports = {
     },
     spotify: {
       not: 'Hört nichts auf Spotify.',
-      current: 'Hört sich auf Spotify etwas an.'
+      current: 'Hört sich etwas auf Spotify an.'
     },
     team: {
-        title: 'Sage hallo zu helden!',
-        description: 'Hier finden Sie alle, die an GiveAways mitarbeiten und mitgestalten <br>. Vielen Dank an unser Team. <3',
+        title: 'Lerne die Helden kennen!',
+        description: 'Hier finden Sie alle, die an GiveAways mitarbeiten und mitgestalten <br>. Vielen Dank an unser Team! <3',
         linkcordLang: 'en',
         noWidget: 'Kein Widget',
         roles: {
@@ -126,7 +126,7 @@ module.exports = {
             },
             description: {
                 title: 'Beschreibung',
-                description: 'Geben Sie Ihre Giveaway-Beschreibung ein'
+                description: 'Geben Sie Ihre Verlosungs-Beschreibung ein'
             },
             prize: {
                 title: 'Preis',
@@ -138,7 +138,8 @@ module.exports = {
             },
             winners: {
                 title: 'Gewinner Anzahl',
-                description: 'Geben Sie die Anzahl der Gewinner ein'
+                description: 'Geben Sie die Anzahl der Gewinner ein',
+                recommendet: 'Empfohlen: 1 Gewinner'
             },
             channel: {
                 title: 'Kanal',
@@ -158,13 +159,13 @@ module.exports = {
             },
             presentation: {
                 title: 'Präsentation',
-                description: 'Wenn Sie "Privat" wählen, wird Ihr Werbegeschenk nicht in Discover erscheinen, wenn Sie jedoch "Öffentlich" wählen, wird Ihr Werbegeschenk in Discover erscheinen.'
+                description: 'Wenn Sie "Privat" wählen, wird Ihre Verlosung nicht in "Entdecken" erscheinen, wenn Sie jedoch "Öffentlich" wählen, wird Ihre Verlosung in "Entdecken" erscheinen.'
             },
         },
         button: "Einreichen",
         presentationPrivate: 'Privat',
         presentationPublic: 'Öffentlich',
-        requirementsDropdownText: 'Sie suchen weitere Optionen? Schauen Sie sich Ihre Verbindungen an.',
+        requirementsDropdownText: 'Sie suchen weitere Optionen? Schauen Sie sich Ihre Verbindungen an!',
         presentationTippy: 'Wichtige Einstellung',
         unReachTippy: 'Dies ist Ihr Recht, ein Werbegeschenk zu eröffnen. Sie haben das Recht, {MORE} weitere Werbegeschenke zu öffnen.',
         reachTippy: 'Sie haben Ihr Giveaway-Limit erreicht.',
@@ -180,10 +181,10 @@ module.exports = {
             profile: 'Profil',
             guilds: 'Server',
             connections: 'Verbindungen',
-            panel: 'Admin Bereich',
+            panel: 'Administrator Bereich',
             redeem: 'Einlösen',
             logout: 'Ausloggen',
-            _profile: 'Sehe dein profil!',
+            _profile: 'Sehe dein Profil!',
             _guilds: 'Wähle einen Server!',
             _connections: 'Verwalten Sie Ihre Verbindungen!',
             _panel: 'Sehr, sehr geheim :)',
@@ -206,7 +207,7 @@ module.exports = {
             inputPlaceholder: 'Ihr Geschenkcode hier',
             button: 'Einlösen',
             didntWork: 'Der Code hat nicht funktioniert?',
-            success: '🎉 Herzlichen Glückwunsch! {COUNT} boosts wurden zu deinem accoun hinzugefügt!'
+            success: '🎉 Herzlichen Glückwunsch! {COUNT} Boosts wurden zu deinem Account hinzugefügt!'
         }
     },
     dashboard: {
@@ -223,7 +224,7 @@ module.exports = {
             total: 'Alle Werbegeschenke',
             active: 'Aktive Werbegeschenke',
             activeTippy: 'Boost zur Erhöhung des Limits!',
-            ended: 'Beendete Werbegeschänke',
+            ended: 'Beendete Verlosungen',
             participants: 'Insgesamte Teilnehmer'
         },
         auditLog: {
@@ -235,12 +236,12 @@ module.exports = {
                 action: 'Aktion',
                 message: 'Nachricht'
             },
-            boost: 'Hat den server geboostet!',
-            unboost: 'Hat den server ge unboosted!',
-            giveaway_delete: 'Hat ein Werbegeschenk gelöscht.',
-            giveaway_create: 'Hat ein Werbegeschenk gestartet.',
-            giveaway_finish: 'Werbegeschenk beendet.',
-            giveaway_join: 'Ist einem Werbegeschenk beigetreten.',
+            boost: 'Hat den Server geboostet!',
+            unboost: 'Hat den Server ge unboosted!',
+            giveaway_delete: 'Hat eine Verlosung gelöscht.',
+            giveaway_create: 'Hat eine Verlosung gestartet.',
+            giveaway_finish: 'Verlosung beendet.',
+            giveaway_join: 'Ist einer Verlosung beigetreten.',
             giveawaY_reroll: 'Hat ein Werbegeschenk neu ausgelosst.'
         },
     },

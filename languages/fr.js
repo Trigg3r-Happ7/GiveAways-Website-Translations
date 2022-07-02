@@ -144,6 +144,7 @@ module.exports = {
       winners: {
         title: "Winners Le nombre de gagnants",
         description: "Entrez le décompte des gagnants",
+        recommendet: 'Recommandé : 1 gagnant'
       },
       channel: {
         title: "Salon",
