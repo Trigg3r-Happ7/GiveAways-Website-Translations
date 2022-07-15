@@ -11,10 +11,10 @@ module.exports = {
         login: 'Login'
     },
     footer: {
-        rights: 'All rights reserved!',
+        rights: 'All rights reserved.',
         description: 'The best giveaway bot on Discord. Organically improve your social media accounts by creating giveaways. It\'s in your hands...',
         rights: 'All rights reserved.',
-        description: 'The best giveaway bot on Discord! Organically improves your social media accounts by creating giveaways. It\'s in your hands...',
+        description: 'The best giveaway bot on Discord. Organically improve your social media accounts by creating giveaways. It\'s in your hands...',
         menus: {
             first: {
                 title: 'Important',
@@ -106,7 +106,7 @@ module.exports = {
     },
     team: {
         title: 'Get to know the heroes!',
-        description: 'You can find everyone who works and contributes <br> to GiveAways. Many thanks to our team! <3',
+        description: 'Here you can find everyone who works and contributes <br> to GiveAways. Many thanks to our team! <3',
         linkcordLang: 'en',
         noWidget: 'No Widget',
         roles: {
