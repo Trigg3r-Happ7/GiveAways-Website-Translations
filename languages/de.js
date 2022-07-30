@@ -171,6 +171,18 @@ module.exports = {
         reachTippy: 'Sie haben Ihr Giveaway-Limit erreicht.',
         reachedText: 'Du has das Werbegeschenk limit erreicht.<br /> <span class="text-amber-400/50 ml-1 hover:underline cursor-pointer"><i class="fad fa-diamond"></i> Booste</span> den server für mehr kapazität.'
     },
+    partners: {
+        title: "Partners",
+        description: "You can see our partners here!",
+        button: "Einreichen",
+        presentationPrivate: 'Privat',
+        presentationPublic: 'Öffentlich',
+        requirementsDropdownText: 'Sie suchen weitere Optionen? Schauen Sie sich Ihre Verbindungen an!',
+        presentationTippy: 'Wichtige Einstellung',
+        unReachTippy: 'Dies ist Ihr Recht, ein Werbegeschenk zu eröffnen. Sie haben das Recht, {MORE} weitere Werbegeschenke zu öffnen.',
+        reachTippy: 'Sie haben Ihr Giveaway-Limit erreicht.',
+        reachedText: 'Du has das Werbegeschenk limit erreicht.<br /> <span class="text-amber-400/50 ml-1 hover:underline cursor-pointer"><i class="fad fa-diamond"></i> Booste</span> den server für mehr kapazität.'
+    },
     user: {
         profile: {
             giveaways: {
