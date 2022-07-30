@@ -63,8 +63,8 @@ module.exports = {
         },
         advanced: [
             { placement: "left", imageUrl: 'https://i.imgur.com/twQBhV3.png', title: 'Vergrößern Sie Ihre Konten', description: 'Entwickeln Sie Ihre Konten organisch weiter mit GiveAways und lassen sie wachsen.'},
-            { placement: "right", imageUrl: 'https://i.imgur.com/aQFJbiI.png', title: 'Sperren Sie Ihre Werbegeschenke', description: "Verschlüsseln Sie Ihre privaten Verlosungen mit GiveAways Verschlüsselungssystem." }
-            { placement: "left", imageUrl: 'https://i.imgur.com/KsBUSAB.png', title: 'Erweitern Sie Ihren Server', description: "Sie können Ihre Server schneller wachsen lassen, indem Sie eine Einladungspflicht zu Ihren Werbegeschenken hinzufügen." 
+            { placement: "right", imageUrl: 'https://i.imgur.com/aQFJbiI.png', title: 'Sperren Sie Ihre Werbegeschenke', description: "Verschlüsseln Sie Ihre privaten Verlosungen mit GiveAways Verschlüsselungssystem." },
+            { placement: "left", imageUrl: 'https://i.imgur.com/KsBUSAB.png', title: 'Erweitern Sie Ihren Server', description: "Sie können Ihre Server schneller wachsen lassen, indem Sie eine Einladungspflicht zu Ihren Werbegeschenken hinzufügen." } 
         ],
         statistics: {
             chosen: 'Ausgewählt von <span class="text-amber-500">{server_count}</span> Servern',
@@ -173,15 +173,7 @@ module.exports = {
     },
     partners: {
         title: "Partners",
-        description: "You can see our partners here!",
-        button: "Einreichen",
-        presentationPrivate: 'Privat',
-        presentationPublic: 'Öffentlich',
-        requirementsDropdownText: 'Sie suchen weitere Optionen? Schauen Sie sich Ihre Verbindungen an!',
-        presentationTippy: 'Wichtige Einstellung',
-        unReachTippy: 'Dies ist Ihr Recht, ein Werbegeschenk zu eröffnen. Sie haben das Recht, {MORE} weitere Werbegeschenke zu öffnen.',
-        reachTippy: 'Sie haben Ihr Giveaway-Limit erreicht.',
-        reachedText: 'Du has das Werbegeschenk limit erreicht.<br /> <span class="text-amber-400/50 ml-1 hover:underline cursor-pointer"><i class="fad fa-diamond"></i> Booste</span> den server für mehr kapazität.'
+        description: "Hier kannst du unsere Partners here!",
     },
     user: {
         profile: {
