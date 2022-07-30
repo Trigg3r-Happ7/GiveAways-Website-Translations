@@ -84,14 +84,14 @@ module.exports = {
         searchInput: 'Search by gifts, title, server name, etc.',
         settings: {
             title: 'Settings',
-            description: 'The giveaway are the sorting settings.',
+            description: 'The giveaways are the sorting settings.',
             amount: {
                 title: 'Amount',
                 description: 'Allows you to change the number of giveaway to be listed.'
             },
             sort: {
                 title: 'Sort',
-                miniNote: 'sorting by prize',
+                miniNote: 'Sorting by prize',
                 description: 'Allows you to change the listing order.'
             }
         },
@@ -101,12 +101,12 @@ module.exports = {
         reqs: 'Requirements'
     },
     spotify: {
-      not: 'Not listening anything on Spotify.',
-      current: 'Listening on Spotify.'
+      not: 'Not listening to anything on Spotify.',
+      current: 'Listening to something on Spotify.'
     },
     team: {
         title: 'Get to know the heroes!',
-        description: 'Here you can find everyone who works and contributes <br> to GiveAways. Many thanks to our team! <3',
+        description: 'Here, you can find everyone who works and contributes <br> to GiveAways. Many thanks to our team! <3',
         linkcordLang: 'en',
         noWidget: 'No Widget',
         roles: {
