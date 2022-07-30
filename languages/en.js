@@ -173,6 +173,10 @@ module.exports = {
         reachTippy: 'You have reached your giveaway limit.',
         reachedText: 'You\'ve reached the giveaway limit.<br /> <span class="text-amber-400/50 ml-1 hover:underline cursor-pointer"><i class="fad fa-diamond"></i> Boost</span> the server to more limit.'
     },
+    partners: {
+        title: "Partners",
+        description: "You can see our partners here!",
+    },
     user: {
         profile: {
             giveaways: {
