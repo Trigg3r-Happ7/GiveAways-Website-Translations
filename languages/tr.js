@@ -178,6 +178,10 @@ module.exports = {
     reachTippy: 'Yapma ya! Çekiliş oluşturma sınırınıza ulaşmışsınız.',
     reachedText: 'Çekiliş oluşturma sınırına ulaştınız.<br /> <span class="text-amber-400/50 ml-1 hover:underline cursor-pointer"><i class="fad fa-diamond"></i> Takviye</span> satın alarak çekiliş limitinizi arttırabilirsiniz.'
   },
+  partners: {
+    title: "Ortaklar",
+    description: "Ortaklarımızı burada görebilirsiniz!"
+},
   user: {
     profile: {
       giveaways: {
@@ -190,14 +194,24 @@ module.exports = {
       connections: 'Bağlantılar',
       panel: 'Yönetici Paneli',
       redeem: 'Kod Bozdur',
+      notifications: 'Bildirimler',
       logout: 'Çıkış yap',
       _profile: 'Profilini görüntüle!',
       _guilds: 'Sunucunu seç!',
       _connections: 'Bağlantıları yönet!',
       _panel: 'Giveaways\'ın yönetici paneli.',
       _redeem: 'Kod bozdur!',
+      _notifications: 'Bildirimlerinizi görüntüleyin!',
       _logout: 'Website oturumunu sonlandır!'
     },
+    notifications: {
+      title: "Bildirimleriniz",
+      won_part1: "Sen kazandın",
+      won_part2: "hediye!",
+      won_part3: "Ödülünüz burada",
+      won_part4: "Ödül geçersizse, çekiliş sahibiyle iletişime geçin.",
+      no_notifications: "Burada bildirim yok!",
+ },
     connections: {
       title: 'Bağlantılar',
       description: 'GiveAways\'e bağlamış olduğunuz sosyal medya hesaplarını buradan yönetebilirsiniz.',
@@ -218,6 +232,10 @@ module.exports = {
     }
   },
   dashboard: {
+    managing: 'Şu anda yönetiyorsunuz:',
+    pages: 'Sayfalar',
+    more: 'Daha fazla',
+    not_autorized_message: 'Bu sunucuyu yönetme yetkiniz yok!',
     selectServer: {
       title: 'Sunucunu seç',
       description: 'Sunucunu bulamadın mı? <u>Tekrar giriş</u> yapmayı dene!',
@@ -227,6 +245,33 @@ module.exports = {
         add: 'Botu davet et'
       }
     },
+    settings: {
+      free: 'Ücretsiz',
+      soon: 'Çok Yakında',
+      _soon: 'Sadece son destek seviyesine ulaşmış olanlar kullanabilir.',
+      embed_editor_title: 'Yerleştirme ayarı',
+      bot_name: 'GiveAways',
+      bot_label: 'bot',
+      today_at: 'Bugün',
+      youcan: 'İtalik ve düşük opaklıklı alanlara metin ekleyebilirsiniz. İstediğiniz metnin üzerine tıklayarak düzenleyebilirsiniz. (Zorunlu alanlar düzenlenemez!)',
+      reset: 'Sıfırla',
+      save: 'Kaydet',
+      logs_title: 'Günlükler',
+      logs_desc: 'Günlükleri bir Discord kanalında yayınlayın',
+      enabled: 'Etkin',
+      disabled: 'Engelli',
+      log_channel_title: 'Günlük Kanalı'
+    },
+    allgiveaways: {
+        create_button_title: 'Oluştur',
+        title_label: 'Başlık',
+        prize_label: 'Ödül',
+        total_winners_label: 'Toplam Kazananlar',
+        status_title: 'Durum',
+        total_participants: 'Toplam katılımcılar',
+        pin_label: 'Pin Kodu',
+        actions_label: 'Eylemler'
+    },
     stats: {
       total: 'Toplam Çekilişler',
       active: 'Aktif Çekilişler',
@@ -234,6 +279,15 @@ module.exports = {
       ended: 'Bitmiş Çekilişler',
       participants: 'Toplam Katılımcı'
     },
+    sidebar: {
+      dashboard: 'Kontrol Paneli',
+      create: 'Çekiliş Yaratın',
+      active: 'Aktif Eşantiyonlar',
+      ended: 'Sona eren çekilişler',
+      all: 'Tüm Eşantiyonlar',
+      boost: 'Güçlendirir',
+      settings: 'Ayarlar'
+  },
     auditLog: {
       title: 'Denetim Kaydı',
       description: 'Bu sunucuda GiveAways\'ta üzerinde yapılan değişikliklerin denetim kaydı burada görülebilir.',
