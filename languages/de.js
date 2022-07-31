@@ -12,7 +12,7 @@ module.exports = {
     },
     footer: {
         rights: 'Alle Rechte vorbehalten.',
-        description: 'Der beste Giveaway Bot auf Discord! Verbessern Sie Ihre Social-Media-Accounts organisch, indem Sie fortschrittliche und benutzerdefinierte Verlosungen erstellen. Es liegt in Ihren Händen...',
+        description: 'Der beste Giveaway Bot auf Discord! Verbessern Sie Ihre Social-Media-Accounts organisch, indem Sie Giveaways kreieren. Es liegt in Ihren Händen...',
         menus: {
             first: {
                 title: 'Wichtig',
@@ -43,8 +43,8 @@ module.exports = {
         someServices: 'Ein paar Dienste sind offline.'
     },
     index: {
-        title: 'Der beste Giveaway Bot auf Discord!',
-        description: 'Indem Sie mit GiveAways fortschrittliche und benuterdefinierte Verlosungen erstellen, können Sie Ihre Social-Media-Konten verbessern und organischen Auftrieb gewinnen!',
+        title: 'Der beste Giveaway Bot auf Discord.',
+        description: 'Indem Sie mit GiveAways fortschrittliche Werbegeschenke erstellen, können Sie Ihre Social-Media-Konten verbessern und organischen Auftrieb gewinnen!',
         buttons: {
             dashboard: 'Kontroll Panel',
             support: 'Support Server',
@@ -52,19 +52,19 @@ module.exports = {
         },
         features: {
             title: 'Warum <span class="text-amber-500 font-bold">GiveAways</span>',
-            description: 'Mit GiveAways können Sie Ihre Social-Media-Konten verbessern und organische Zuwächse erzielen, indem Sie fortschrittliche und benutzerdefinierte Verlosungen erstellen!',
+            description: 'Mit GiveAways können Sie Ihre Social-Media-Konten verbessern und organische Zuwächse erzielen, indem Sie fortschrittliche Verlosungen erstellen!',
             buttonText: 'Zu Discord hinzufügen',
             items: [
-                 { icon: 'fal fa-star', title: 'Einfaches Erstellen bedingter Verlosungen', description: 'Sie können die Mitglieder Ihrer Träume in kurzer Zeit haben. Sie können organischen Zuwachs erhalten, indem Sie ein bedingtes Werbegeschenk eröffnen, indem Sie Ihren sozialen Medienkonten wie YouTube, Twitch, TikTok, etc. auf GiveAways folgen. Warum versuchen Sie nicht, ein Gewinnspiel für mehr Informationen zu eröffnen?' },
-                 { icon: 'fal fa-star', title: 'Erstellen Sie Ihre eigenen Werbegeschenke', description: 'Sie können den Bot schnell zum Server hinzufügen und Ihre eigene Verlosung auf der Website erstellen und anpassen. Über das Dashboard können Sie im Detail überprüfen, wer an der Verlosung teilgenommen hat und wer an der Verlosung teil nimmt.'},
-                 { icon: 'fal fa-star', title: 'Verlosungen entdecken', description: 'Sie können an der Verlosung in der Rubrik "Entdecken" teilnehmen und Preise gewinnen, und Sie können die verbleibende Zeit als auch detaillierte Informationen auf dem Panel sehen.' },
-                 { icon: 'fal fa-star', title: 'Sich selbst Special fühlen', description: 'Mit dem Kauf von Boosts, können Sie mehr als 20 Werbegeschenke gleichzeitig auf Ihrem Server verschenken! Allerdings, können Sie ein Werbegeschenk nur 20 Mal wiederholen und einbetten. Sie können Ihre Werbegeschenke mit einem Passwort schützen.' }
+                 { icon: 'fal fa-star', title: 'Einfaches Erstellen bedingter Werbegeschenke', description: 'Sie können die Mitglieder Ihrer Träume in kurzer Zeit haben. Sie können organischen Zuwachs erhalten, indem Sie ein bedingtes Werbegeschenk eröffnen, indem Sie Ihren sozialen Medienkonten wie YouTube, Twitch, TikTok, etc. auf GiveAways folgen. Warum versuchen Sie nicht, ein Gewinnspiel für mehr Informationen zu eröffnen?' },
+                 { icon: 'fal fa-star', title: 'Erstellen Sie Ihre eigenen Werbegeschenke', description: 'Sie können den Bot schnell zum Server hinzufügen und Ihre eigene Verlosung auf der Website erstellen und anpassen. Über das Dashboard können Sie im Detail überprüfen, wer an der Verlosung teilgenommen hat.'},
+                 { icon: 'fal fa-star', title: 'Werbegeschenke entdecken ', description: 'Sie können an der Verlosung in der Rubrik "Entdecken" teilnehmen und Preise gewinnen, und Sie können die verbleibende Zeit als auch detaillierte Informationen auf dem Panel sehen.' },
+                 { icon: 'fal fa-star', title: 'Selbst Fühlen Special', description: 'Mit dem Kauf von Boost können Sie mehr als 20 Werbegeschenke gleichzeitig auf Ihrem Server verschenken, allerdings können Sie ein Werbegeschenk 20 Mal wiederholen und einbetten. Sie können Ihre Werbegeschenke mit einem Passwort schützen.' }
             ]
         },
         advanced: [
             { placement: "left", imageUrl: 'https://i.imgur.com/twQBhV3.png', title: 'Vergrößern Sie Ihre Konten', description: 'Entwickeln Sie Ihre Konten organisch weiter mit GiveAways und lassen sie wachsen.'},
             { placement: "right", imageUrl: 'https://i.imgur.com/aQFJbiI.png', title: 'Sperren Sie Ihre Werbegeschenke', description: "Verschlüsseln Sie Ihre privaten Verlosungen mit GiveAways Verschlüsselungssystem." },
-            { placement: "left", imageUrl: 'https://i.imgur.com/KsBUSAB.png', title: 'Erweitern Sie Ihren Server', description: "Sie können Ihre Server schneller wachsen lassen, indem Sie eine Einladungspflicht zu Ihren Werbegeschenken hinzufügen." } 
+            { placement: "left", imageUrl: 'https://i.imgur.com/KsBUSAB.png', title: 'Erweitern Sie Ihren Server', description: "Sie können Ihre Server schneller wachsen lassen, indem Sie eine Einladungspflicht zu Ihren Werbegeschenken hinzufügen." },
         ],
         statistics: {
             chosen: 'Ausgewählt von <span class="text-amber-500">{server_count}</span> Servern',
@@ -172,8 +172,8 @@ module.exports = {
         reachedText: 'Du has das Werbegeschenk limit erreicht.<br /> <span class="text-amber-400/50 ml-1 hover:underline cursor-pointer"><i class="fad fa-diamond"></i> Booste</span> den server für mehr kapazität.'
     },
     partners: {
-        title: "Partners",
-        description: "Hier kannst du unsere Partners here!",
+        title: "Unsere Partner",
+        description: "Du kannst hier unsere Partner sehen!"
     },
     user: {
         profile: {
@@ -186,6 +186,7 @@ module.exports = {
             guilds: 'Server',
             connections: 'Verbindungen',
             panel: 'Administrator Bereich',
+            notifications: 'Benachrichtigungen',
             redeem: 'Einlösen',
             logout: 'Ausloggen',
             _profile: 'Sehe dein Profil!',
@@ -193,8 +194,17 @@ module.exports = {
             _connections: 'Verwalten Sie Ihre Verbindungen!',
             _panel: 'Sehr, sehr geheim :)',
             _redeem: 'Verwenden Sie den Promo-Code!',
+            _notifications: 'Sehe deine Benachrichtigungen!',
             _logout: 'Beenden Sie die Sitzung der Website!'
         },
+        notifications: {
+            title: "Deine Benachrichtigungen",
+            won_part1: "Du hast das",
+            won_part2: "giveaway gewonnen!",
+            won_part3: "Dein gewinn ist hier:",
+            won_part4: "Wenn du glaubst das der Preis falsch ist, kontaktiere den Werbegeschenk veranstalter.",
+            no_notifications: "Du hast keine Benachrichtigungen!",
+       },
         connections: {
             title: 'Verbindungen',
             description: 'Sie können die Konten der sozialen Medien auf GiveAways hier verwalten.',
@@ -215,6 +225,10 @@ module.exports = {
         }
     },
     dashboard: {
+        managing: 'Du verwaltest gerade:',
+        pages: 'Seiten',
+        more: 'Mehr',
+        not_autorized_message: 'Du bist nicht autoriziert diesen server zu verwalten!',
         selectServer: {
             title: 'Server auswählen',
             description: 'Wenn Ihr Server nicht hier ist, <u>login</u> wieder!',
@@ -224,12 +238,48 @@ module.exports = {
                 add: 'Bot einrichten'
             }
         },
+        settings: {
+            free: 'Gratis',
+            soon: 'KOMMT BALD',
+            _soon: 'Nur diejenigen, die den letzten Boost-Level erreicht haben, können ihn nutzen.',
+            embed_editor_title: 'Einbettungs Einstellung',
+            bot_name: 'GiveAways',
+            bot_label: 'bot',
+            today_at: 'Heute um',
+            youcan: 'Sie können Text in Bereiche mit kursiver Schrift und geringer Deckkraft einfügen. Sie können den gewünschten Text bearbeiten, indem Sie ihn anklicken. (Pflichtfelder können nicht bearbeitet werden!)',
+            reset: 'Reset',
+            save: 'Speichern',
+            logs_title: 'Logs',
+            logs_desc: 'Poste Logs in einem Discord Kanal',
+            enabled: 'Aktiviert',
+            disabled: 'Deaktiviert',
+            log_channel_title: 'Log Kanal'
+          },
+          allgiveaways: {
+              create_button_title: 'Erstellen',
+              title_label: 'Titel',
+              prize_label: 'Preis',
+              total_winners_label: 'Insgesamte Gewinner',
+              status_title: 'Status',
+              total_participants: 'Insgesamte Teilnehmer',
+              pin_label: 'Pin Code',
+              actions_label: 'Aktionen'
+          },
         stats: {
             total: 'Alle Werbegeschenke',
             active: 'Aktive Werbegeschenke',
             activeTippy: 'Boost zur Erhöhung des Limits!',
             ended: 'Beendete Verlosungen',
             participants: 'Insgesamte Teilnehmer'
+        },
+        sidebar: {
+            dashboard: 'Kontroll Panel',
+            create: 'Werbegeschenk Erstellen',
+            active: 'Aktive Werbegeschenke',
+            ended: 'Geendete Werbegeschenke',
+            all: 'Alle Werbegeschenke',
+            boost: 'Boosts',
+            settings: 'Einstellungen'
         },
         auditLog: {
             title: 'Audit-Protokoll',
