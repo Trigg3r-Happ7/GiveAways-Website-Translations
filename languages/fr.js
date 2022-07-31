@@ -38,6 +38,12 @@ module.exports = {
           privacy: "Politique de confidentialité",
         },
       },
+      four: {
+        title: 'Votez pour les GiveAways',
+        items: {
+            topgg: 'Top.gg'
+        }
+    },
     },
     developedWith: "Développé avec ❤️ par clqu & Swôth & édité par GiveAways Équipe.",
     allServices: "Tous les services sont en ligne.",
@@ -182,6 +188,10 @@ module.exports = {
     reachedText:
       'Vous avez atteint la limite des cadeaux.<br /> <span class="text-amber-400/50 ml-1 hover:underline cursor-pointer"><i class="fad fa-diamond"></i > Boost</span> le serveur à plus de limite.',
   },
+  partners: {
+    title: "Partenaires",
+    description: "Vous pouvez voir nos partenaires ici!"
+},
   user: {
     profile: {
       giveaways: {
@@ -194,14 +204,24 @@ module.exports = {
       connections: "Connexions",
       panel: "Panneau",
       redeem: "Racheter",
+      notifications: 'Notifications',
       logout: "Se déconnecter",
-      _profile: "Consultez votre profil !",
+      _profile: "Consultez votre profil!",
       _guilds: "Sélectionnez un serveur!",
-      _connections: "Gérez vos connexions !",
+      _connections: "Gérez vos connexions!",
       _panel: "Très, très secrète :)",
-      _redeem: "Utilisez le code promotionnel !",
-      _logout: "Terminez la session du site !",
+      _redeem: "Utilisez le code promotionnel!",
+      _notifications: 'Consultez vos notifications!',
+      _logout: "Terminez la session du site!",
     },
+    notifications: {
+      title: "Vos notifications",
+      won_part1: "Vous avez gagné le",
+      won_part2: "concours!",
+      won_part3: "Votre récompense est ici",
+      won_part4: "Wenn Si le prix n'est pas valide, contactez le propriétaire du concours.",
+      no_notifications: "Aucune notification ici!",
+ },
     connections: {
       title: "Connexions",
       description:
@@ -223,6 +243,10 @@ module.exports = {
     },
   },
   dashboard: {
+    managing: 'Vous êtes en train de gérer:',
+    pages: 'Pages',
+    more: 'Plus de',
+    not_autorized_message: 'Tu nes pas autorisé à gérer ce serveur !',
     selectServer: {
       title: "Sélectionnez le serveur",
       description:
@@ -233,6 +257,33 @@ module.exports = {
         add: "Bot de configuration",
       },
     },
+    settings: {
+      free: 'Gratuit',
+      soon: 'Viendra bientôt !',
+      _soon: 'Seuls ceux qui ont atteint le dernier niveau de boost peuvent l utiliser.',
+      embed_editor_title: 'Paramètre d intégration',
+      bot_name: 'GiveAways',
+      bot_label: 'bot',
+      today_at: 'Aujourd hui à',
+      youcan: 'Vous pouvez ajouter du texte aux zones avec des italiques et une faible opacité. Vous pouvez éditer le texte que vous souhaitez en cliquant dessus. (Les champs requis ne peuvent pas être édités !)',
+      reset: 'Réinitialiser',
+      save: 'Enregistrer',
+      logs_title: 'Logs',
+      logs_desc: 'Poster des logs dans un canal Discord',
+      enabled: 'Active',
+      disabled: 'Désactivé',
+      log_channel_title: 'Canal de logs'
+    },
+    allgiveaways: {
+        create_button_title: 'Créer',
+        title_label: 'Titre',
+        prize_label: 'Prix',
+        total_winners_label: 'Total des gagnants',
+        status_title: 'Statut',
+        total_participants: 'Total des participants',
+        pin_label: 'Code pin',
+        actions_label: 'Actions'
+    },
     stats: {
       total: "Total des cadeaux",
       active: "Cadeaux actifs",
@@ -240,6 +291,15 @@ module.exports = {
       ended: "Cadeaux terminés",
       participants: "Participants totaux",
     },
+    sidebar: {
+      dashboard: 'Panneau de contrôle',
+      create: 'Créer un cadeau promotionnel',
+      active: 'Cadeaux actifs',
+      ended: 'Cadeaux publicitaires terminés',
+      all: 'Tous les cadeaux publicitaires',
+      boost: 'Boosts',
+      settings: 'Paramètres'
+  },
     auditLog: {
       title: "Journal d'audit",
       description:
