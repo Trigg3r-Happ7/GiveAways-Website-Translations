@@ -39,6 +39,12 @@ module.exports = {
                     privacy: 'Privacy Policy'
                 }
             },
+            four: {
+                title: 'Vote for GiveAways',
+                items: {
+                    topgg: 'Top.gg'
+                }
+            },
         },
         developedWith: 'Developed with ❤️ by clqu & Swôth & edited by GiveAways Team.',
         allServices: 'All services are online.',
@@ -57,10 +63,10 @@ module.exports = {
             description: 'With GiveAways, you can improve your social media accounts and get organic increases by creating advanced sweepstakes!',
             buttonText: 'Add to Discord',
             items: [
-                 { icon: 'fal fa-star', title: 'Easily Create Conditional Giveaways', description: 'You can have the members of your dreams in a short time. You can get organic increase by opening conditional giveaways by following your social media accounts such as YouTube, Twitch, TikTok, etc. on GiveAways. Why not try opening a raffle for more information?' },
+                 { icon: 'fal fa-star', title: 'Easily Create Conditional Giveaway', description: 'You can have the members of your dreams in a short time. You can get organic increase by opening conditional giveaways by following your social media accounts such as YouTube, Twitch, TikTok, etc. on GiveAways. Why not try opening a raffle for more information?' },
                  { icon: 'fal fa-star', title: 'Build Your Own Giveaways', description: 'You can quickly add the bot to the server and create and customize your own giveaway on the site. You can check who has participated in the giveaway in detail via the Dashboard.'},
                  { icon: 'fal fa-star', title: 'Discover Giveaways ', description: 'You can participate in the giveaway according to you in the Discover section and win prizes, and you can see the remaining time and detailed information on the panel.' },
-                 { icon: 'fal fa-star', title: 'Feel Special Yourself', description: 'By purchasing Boosts, you can giveaway more than 20 simultaneous gifts on your server! However, you can only repeat and embed 20 times on a giveaway. You can make it safe by adding a password to your giveaways.' }
+                 { icon: 'fal fa-star', title: 'Self Feel Special', description: 'By purchasing Boost, you can giveaway more than 20 simultaneous giveaways on your server, however, you can repeat and embed 20 times on a giveaway. You can make it safe by adding a password to your giveaways.' }
             ]
         },
         advanced: [
@@ -84,14 +90,14 @@ module.exports = {
         searchInput: 'Search by gifts, title, server name, etc.',
         settings: {
             title: 'Settings',
-            description: 'The giveaways are the sorting settings.',
+            description: 'The giveaway are the sorting settings.',
             amount: {
                 title: 'Amount',
                 description: 'Allows you to change the number of giveaway to be listed.'
             },
             sort: {
                 title: 'Sort',
-                miniNote: 'Sorting by prize',
+                miniNote: 'sorting by prize',
                 description: 'Allows you to change the listing order.'
             }
         },
@@ -101,12 +107,12 @@ module.exports = {
         reqs: 'Requirements'
     },
     spotify: {
-      not: 'Not listening to anything on Spotify.',
-      current: 'Listening to something on Spotify.'
+      not: 'Not listening anything on Spotify.',
+      current: 'Listening on Spotify.'
     },
     team: {
         title: 'Get to know the heroes!',
-        description: 'Here, you can find everyone who works and contributes <br> to GiveAways. Many thanks to our team! <3',
+        description: 'Here you can find everyone who works and contributes <br> to GiveAways. Many thanks to our team! <3',
         linkcordLang: 'en',
         noWidget: 'No Widget',
         roles: {
@@ -175,7 +181,7 @@ module.exports = {
     },
     partners: {
         title: "Partners",
-        description: "You can see our partners here!",
+        description: "You can see our partners here!"
     },
     user: {
         profile: {
@@ -189,14 +195,24 @@ module.exports = {
             connections: 'Connections',
             panel: 'Panel',
             redeem: 'Redeem',
+            notifications: 'Notifications',
             logout: 'Logout',
             _profile: 'View your profile!',
             _guilds: 'Select a server!',
             _connections: 'Manage your connections!',
             _panel: 'Very, very secret :)',
             _redeem: 'Use promo code!',
+            _notifications: 'View your Notifications!',
             _logout: 'Terminate the website session!'
         },
+        notifications: {
+            title: "Your Notifications",
+            won_part1: "You've won the",
+            won_part2: "giveaway!",
+            won_part3: "Your reward is here:",
+            won_part4: "If the prize is invalid, contact the giveaway owner.",
+            no_notifications: "No notification here!",
+       },
         connections: {
             title: 'Connections',
             description: 'You can manage social media accounts on GiveAways here.',
@@ -217,6 +233,10 @@ module.exports = {
         }
     },
     dashboard: {
+        managing: 'You are managing:',
+        pages: 'Sites',
+        more: 'More',
+        not_autorized_message: 'You are not autorized to manage this server!',
         selectServer: {
             title: 'Select Server',
             description: 'If your server is not here, <u>login</u> again!',
@@ -226,12 +246,48 @@ module.exports = {
                 add: 'Setup Bot'
             }
         },
+        settings: {
+            free: 'Free',
+            soon: 'COMMING SOON',
+            _soon: 'Only those who have reached the last boost level can use it.',
+            embed_editor_title: 'Embed Editor',
+            bot_name: 'GiveAways',
+            bot_label: 'bot',
+            today_at: 'Today at',
+            youcan: 'You can add text to areas with italics and low opacity. You can edit the text you want by clicking on it. (Required fields cannot be edited!)',
+            reset: 'Reset',
+            save: 'Save',
+            logs_title: 'Logs',
+            logs_desc: 'Post Logs to a Discord Channel',
+            enabled: 'Enabled',
+            disabled: 'Disabled',
+            log_channel_title: 'Log Channel'
+          },
+          allgiveaways: {
+              create_button_title: 'Create',
+              title_label: 'Titel',
+              prize_label: 'Prize',
+              total_winners_label: 'Total Winners',
+              status_title: 'Status',
+              total_participants: 'Total Participants',
+              pin_label: 'Pin Code',
+              actions_label: 'Actions'
+          },
         stats: {
             total: 'Total Giveaways',
             active: 'Active Giveaways',
             activeTippy: 'Boost to increase the limit!',
             ended: 'Ended Giveaways',
             participants: 'Total Participants'
+        },
+        sidebar: {
+            dashboard: 'Dashboard',
+            create: 'Create Giveaway',
+            active: 'Active Giveaways',
+            ended: 'Ended Giveaways',
+            all: 'All Giveaways',
+            boost: 'Boosts',
+            settings: 'Settings'
         },
         auditLog: {
             title: 'Audit Log',
