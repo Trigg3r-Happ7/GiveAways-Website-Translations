@@ -270,19 +270,19 @@ module.exports = {
         status_title: 'Durum',
         total_participants: 'Toplam katılımcılar',
         pin_label: 'Pin Kodu',
-        actions_label: 'Eylemler'
+        actions_label: 'Eylem günlüğü'
     },
     stats: {
       total: 'Toplam Çekilişler',
       active: 'Aktif Çekilişler',
-      activeTippy: 'Limiti artırmak için takviye yapmalısınız!',
+      activeTippy: 'Limiti artırmak için giveaways takviyesi yapmalısınız!',
       ended: 'Bitmiş Çekilişler',
       participants: 'Toplam Katılımcı'
     },
     sidebar: {
       dashboard: 'Kontrol Paneli',
       create: 'Çekiliş Yaratın',
-      active: 'Aktif Eşantiyonlar',
+      active: 'Aktif Çekilişler',
       ended: 'Sona eren çekilişler',
       all: 'Tüm Eşantiyonlar',
       boost: 'Güçlendirir',
