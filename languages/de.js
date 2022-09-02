@@ -6,13 +6,14 @@ module.exports = {
         discover: 'Erkunden',
         partners: 'Partner',
         team: 'Team',
+        status: 'Status',
         support: 'Support Server',
         invite: 'Bot Hinzufügen',
         login: 'Einloggen'
     },
     footer: {
         rights: 'Alle Rechte vorbehalten.',
-        description: 'Der beste Giveaway Bot auf Discord! Verbessern Sie Ihre Social-Media-Accounts organisch, indem Sie Giveaways kreieren. Es liegt in Ihren Händen...',
+        description: 'Der beste Giveaway Bot auf Discord! Verbessern Sie Ihren Discord Server organisch, indem Sie Giveaways kreieren. Es liegt in Ihren Händen...',
         menus: {
             first: {
                 title: 'Wichtig',
@@ -27,7 +28,9 @@ module.exports = {
                 title: 'GiveAways',
                 items: {
                     partners: 'Partner',
-                    team: 'Team'
+                    team: 'Team',
+                    status: 'Status',
+                    upvote: 'Upvote',
                 }
             },
             third: {
@@ -44,25 +47,25 @@ module.exports = {
     },
     index: {
         title: 'Der beste Giveaway Bot auf Discord.',
-        description: 'Indem Sie mit GiveAways fortschrittliche Werbegeschenke erstellen, können Sie Ihre Social-Media-Konten verbessern und organischen Auftrieb gewinnen!',
+        description: 'Indem Sie mit GiveAways fortschrittliche Werbegeschenke erstellen, können Sie Ihren Discord Server verbessern und organischen Auftrieb gewinnen!',
         buttons: {
             dashboard: 'Kontroll Panel',
             support: 'Support Server',
             with_discord: 'Einloggen mit Discord'
         },
         features: {
-            title: 'Warum <span class="text-amber-500 font-bold">GiveAways</span>',
-            description: 'Mit GiveAways können Sie Ihre Social-Media-Konten verbessern und organische Zuwächse erzielen, indem Sie fortschrittliche Verlosungen erstellen!',
+            title: 'Warum <span class="text-amber-500 font-bold">GiveAways</span>?',
+            description: 'Mit GiveAways können Sie Ihren Discord Server verbessern und organische Zuwächse erzielen, indem Sie fortschrittliche Verlosungen erstellen!',
             buttonText: 'Zu Discord hinzufügen',
             items: [
-                 { icon: 'fal fa-star', title: 'Einfaches Erstellen bedingter Werbegeschenke', description: 'Sie können die Mitglieder Ihrer Träume in kurzer Zeit haben. Sie können organischen Zuwachs erhalten, indem Sie ein bedingtes Werbegeschenk eröffnen, indem Sie Ihren sozialen Medienkonten wie YouTube, Twitch, TikTok, etc. auf GiveAways folgen. Warum versuchen Sie nicht, ein Gewinnspiel für mehr Informationen zu eröffnen?' },
+                 { icon: 'fal fa-star', title: 'Einfaches Erstellen bedingter Werbegeschenke', description: 'Sie können die Mitglieder Ihrer Träume in kurzer Zeit haben. Sie können organischen Zuwachs erhalten, indem Sie ein bedingtes Werbegeschenk eröffnen. Warum versuchen Sie nicht, ein Gewinnspiel für mehr Informationen zu eröffnen?' },
                  { icon: 'fal fa-star', title: 'Erstellen Sie Ihre eigenen Werbegeschenke', description: 'Sie können den Bot schnell zum Server hinzufügen und Ihre eigene Verlosung auf der Website erstellen und anpassen. Über das Dashboard können Sie im Detail überprüfen, wer an der Verlosung teilgenommen hat.'},
                  { icon: 'fal fa-star', title: 'Werbegeschenke entdecken ', description: 'Sie können an der Verlosung in der Rubrik "Entdecken" teilnehmen und Preise gewinnen, und Sie können die verbleibende Zeit als auch detaillierte Informationen auf dem Panel sehen.' },
                  { icon: 'fal fa-star', title: 'Selbst Fühlen Special', description: 'Mit dem Kauf von Boost können Sie mehr als 20 Werbegeschenke gleichzeitig auf Ihrem Server verschenken, allerdings können Sie ein Werbegeschenk 20 Mal wiederholen und einbetten. Sie können Ihre Werbegeschenke mit einem Passwort schützen.' }
             ]
         },
         advanced: [
-            { placement: "left", imageUrl: 'https://i.imgur.com/twQBhV3.png', title: 'Vergrößern Sie Ihre Konten', description: 'Entwickeln Sie Ihre Konten organisch weiter mit GiveAways und lassen sie wachsen.'},
+            { placement: "left", imageUrl: 'https://i.imgur.com/lmotpuT.png', title: 'Verbessern Sie Die Werbegeschenke ihres Discord Servers', description: 'Entwickeln Sie Ihren Discord Server organisch weiter mit GiveAways und lassen sie ihn wachsen.'},
             { placement: "right", imageUrl: 'https://i.imgur.com/aQFJbiI.png', title: 'Sperren Sie Ihre Werbegeschenke', description: "Verschlüsseln Sie Ihre privaten Verlosungen mit GiveAways Verschlüsselungssystem." },
             { placement: "left", imageUrl: 'https://i.imgur.com/KsBUSAB.png', title: 'Erweitern Sie Ihren Server', description: "Sie können Ihre Server schneller wachsen lassen, indem Sie eine Einladungspflicht zu Ihren Werbegeschenken hinzufügen." },
         ],
@@ -75,6 +78,12 @@ module.exports = {
                 joins: 'Beitritte',
             }
         }
+    },
+    daily: {
+        title: "Tägliche Belohnungen",
+        description: "Beanspruche die Täglichen Belohnungen hier.",
+        your_last_reward_was: "Deine letzte Belohnung war",
+        claim_button: "Beanspruchen"
     },
     discover: {
         title: 'Entdecken',
@@ -104,7 +113,7 @@ module.exports = {
     },
     team: {
         title: 'Lerne die Helden kennen!',
-        description: 'Hier finden Sie alle, die an GiveAways mitarbeiten und mitgestalten <br>. Vielen Dank an unser Team! <3',
+        description: 'Hier finden Sie alle, die an GiveAways mitarbeiten und mitgestalten. <br> Vielen Dank an unser Team! <3',
         linkcordLang: 'en',
         noWidget: 'Kein Widget',
         roles: {
@@ -113,7 +122,8 @@ module.exports = {
             'Community-Manager': 'Community Manager',
             'Developer': 'Developer',
             'Designer': 'Designer',
-            'Moderator': 'Moderator'
+            'Moderator': 'Moderator',
+            'Helper': 'Helper'
         }
     },
     create: {
@@ -131,6 +141,10 @@ module.exports = {
             prize: {
                 title: 'Preis',
                 description: 'Geben Sie Ihren Werbegeschenkpreis ein'
+            },
+            banner: {
+                title: 'Banner',
+                description: 'Fügen sie ihren Banner hinzu'
             },
             enddate: {
                 title: 'Enddatum',
@@ -153,6 +167,18 @@ module.exports = {
                 title: 'Erforderliche Rolle',
                 description: 'Wählen Sie die Discord-Rolle, die an der Verlosung teilnehmen kann.'
             },
+            old: {
+                title: 'Account Older',
+                description: 'How much days should be the account old?'
+            },
+            age: {
+                title: 'Member Age',
+                description: 'How much days should be the user in the server?'
+            },
+            norole: {
+                title: 'Required No Role',
+                description: 'Select the Discord role that cant participate in the giveaway.'
+            },
             invite: {
                 title: 'Anzahl der Einladungen die erforderlich sind',
                 description: 'Wählen Sie aus, wie viele Einladungen sie benötigt, um an der Verlosung teilzunehmen. (Beispiel: 3)'
@@ -161,11 +187,20 @@ module.exports = {
                 title: 'Präsentation',
                 description: 'Wenn Sie "Privat" wählen, wird Ihre Verlosung nicht in "Entdecken" erscheinen, wenn Sie jedoch "Öffentlich" wählen, wird Ihre Verlosung in "Entdecken" erscheinen.'
             },
+            tag: {
+                title: 'Member Tag',
+                description: 'What should be the tag that can participate in the giveaway.'
+            },
+            message: {
+                title: 'Message Limit Required',
+                description: 'What should be the message limit that she needs to enter the giveaway. (Ex: 100)'
+            },
+            
         },
         button: "Einreichen",
         presentationPrivate: 'Privat',
         presentationPublic: 'Öffentlich',
-        requirementsDropdownText: 'Sie suchen weitere Optionen? Schauen Sie sich Ihre Verbindungen an!',
+        requirementsDropdownText: 'Wollen sie mehr Anforderungen? Treten sie unseren Discord Server bei und fragen sie uns nach neuen Anforderungen!',
         presentationTippy: 'Wichtige Einstellung',
         unReachTippy: 'Dies ist Ihr Recht, ein Werbegeschenk zu eröffnen. Sie haben das Recht, {MORE} weitere Werbegeschenke zu öffnen.',
         reachTippy: 'Sie haben Ihr Giveaway-Limit erreicht.',
@@ -184,14 +219,16 @@ module.exports = {
         dropdown: {
             profile: 'Profil',
             guilds: 'Server',
-            connections: 'Verbindungen',
+            daily: 'Tägliche Belohung',
+            upvote: 'Upvote',
             panel: 'Administrator Bereich',
             notifications: 'Benachrichtigungen',
             redeem: 'Einlösen',
             logout: 'Ausloggen',
             _profile: 'Sehe dein Profil!',
             _guilds: 'Wähle einen Server!',
-            _connections: 'Verwalten Sie Ihre Verbindungen!',
+            _daily: 'Erhalte deine Tägliche belohnung!',
+            _upvote: 'Upvote für GiveAways!',
             _panel: 'Sehr, sehr geheim :)',
             _redeem: 'Verwenden Sie den Promo-Code!',
             _notifications: 'Sehe deine Benachrichtigungen!',
@@ -205,16 +242,16 @@ module.exports = {
             won_part4: "Wenn du glaubst das der Preis falsch ist, kontaktiere den Werbegeschenk veranstalter.",
             no_notifications: "Du hast keine Benachrichtigungen!",
        },
-        connections: {
-            title: 'Verbindungen',
-            description: 'Sie können die Konten der sozialen Medien auf GiveAways hier verwalten.',
-            button: {
-                logout: 'Zum Abmelden anklicken',
-                connect: 'Verbinde dich mit <b>{PROVIDER}</b>',
-                connectMini: 'Zum Verbinden klicken',
-                logged: 'Eingeloggt als <b>{ACCOUNT}</b>'
-            }
-        },
+       connections: {
+        title: 'Verbindungen',
+        description: 'Sie können die Konten der sozialen Medien auf GiveAways hier verwalten.',
+        button: {
+            logout: 'Zum Abmelden anklicken',
+            connect: 'Verbinde dich mit <b>{PROVIDER}</b>',
+            connectMini: 'Zum Verbinden klicken',
+            logged: 'Eingeloggt als <b>{ACCOUNT}</b>'
+        }
+    },
         redeem: {
             title: 'Einlösen',
             description: 'Sie können Ihren Code hier einlösen!',
