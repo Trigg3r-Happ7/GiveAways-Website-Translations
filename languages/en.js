@@ -6,15 +6,14 @@ module.exports = {
         discover: 'Discover',
         partners: 'Partners',
         team: 'Team',
+        status: 'Status',
         support: 'Support Server',
         invite: 'Invite Bot',
         login: 'Login'
     },
     footer: {
         rights: 'All rights reserved.',
-        description: 'The best giveaway bot on Discord. Organically improve your social media accounts by creating giveaways. It\'s in your hands...',
-        rights: 'All rights reserved.',
-        description: 'The best giveaway bot on Discord. Organically improve your social media accounts by creating giveaways. It\'s in your hands...',
+        description: 'The best giveaway bot on Discord. Organically improve your Discord Server by creating giveaways. It\'s in your hands...',
         menus: {
             first: {
                 title: 'Important',
@@ -29,7 +28,9 @@ module.exports = {
                 title: 'GiveAways',
                 items: {
                     partners: 'Partners',
-                    team: 'Team'
+                    team: 'Team',
+                    status: 'Status',
+                    upvote: 'Upvote'
                 }
             },
             third: {
@@ -52,25 +53,25 @@ module.exports = {
     },
     index: {
         title: 'The best giveaway bot on Discord!',
-        description: 'By creating advanced giveaways with GiveAways, you can improve your social media accounts and gain organic lift!',
+        description: 'By creating advanced giveaways with GiveAways, you can improve your Discord Server and gain organic lift!',
         buttons: {
             dashboard: 'Dashboard',
             support: 'Support Server',
             with_discord: 'Login with Discord'
         },
         features: {
-            title: 'Why <span class="text-amber-500 font-bold">GiveAways</span>',
-            description: 'With GiveAways, you can improve your social media accounts and get organic increases by creating advanced sweepstakes!',
+            title: 'Why <span class="text-amber-500 font-bold">GiveAways</span>?',
+            description: 'With GiveAways, you can improve your Discord Server and get organic increases by creating advanced sweepstakes!',
             buttonText: 'Add to Discord',
             items: [
-                 { icon: 'fal fa-star', title: 'Easily Create Conditional Giveaway', description: 'You can have the members of your dreams in a short time. You can get organic increase by opening conditional giveaways by following your social media accounts such as YouTube, Twitch, TikTok, etc. on GiveAways. Why not try opening a raffle for more information?' },
+                 { icon: 'fal fa-star', title: 'Easily Create Conditional Giveaway', description: 'You can have the members of your dreams in a short time. You can get organic increase by opening conditional giveaways. Why not try opening a raffle for more information?' },
                  { icon: 'fal fa-star', title: 'Build Your Own Giveaways', description: 'You can quickly add the bot to the server and create and customize your own giveaway on the site. You can check who has participated in the giveaway in detail via the Dashboard.'},
                  { icon: 'fal fa-star', title: 'Discover Giveaways ', description: 'You can participate in the giveaway according to you in the Discover section and win prizes, and you can see the remaining time and detailed information on the panel.' },
                  { icon: 'fal fa-star', title: 'Self Feel Special', description: 'By purchasing Boost, you can giveaway more than 20 simultaneous giveaways on your server, however, you can repeat and embed 20 times on a giveaway. You can make it safe by adding a password to your giveaways.' }
             ]
         },
         advanced: [
-            { placement: "left", imageUrl: 'https://i.imgur.com/twQBhV3.png', title: 'Grow your accounts', description: 'Develop and grow your accounts organically with GiveAways.'},
+            { placement: "left", imageUrl: 'https://i.imgur.com/lmotpuT.png', title: 'Improve your giveaways on your Discord Server', description: 'Develop and grow your Discord Server organically with GiveAways.'},
             { placement: "right", imageUrl: 'https://i.imgur.com/aQFJbiI.png', title: 'Lock your giveaways', description: "Privately encrypt your giveaways with GiveAways's lock system." },
             { placement: "left", imageUrl: 'https://i.imgur.com/KsBUSAB.png', title: 'Grow your server', description: "You can grow your servers faster by adding an invitation requirement to their giveaways." }
         ],
@@ -83,6 +84,12 @@ module.exports = {
                 joins: 'Joins'
             }
         }
+    },
+    daily: {
+        title: "Daily Rewards",
+        description: "Claim your daily Rewards here.",
+        your_last_reward_was: "Your last reward was",
+        claim_button: "Claim"
     },
     discover: {
         title: 'Discover',
@@ -112,7 +119,7 @@ module.exports = {
     },
     team: {
         title: 'Get to know the heroes!',
-        description: 'Here you can find everyone who works and contributes <br> to GiveAways. Many thanks to our team! <3',
+        description: 'Here you can find everyone who works and contributes to GiveAways. <br> Many thanks to our team! <3',
         linkcordLang: 'en',
         noWidget: 'No Widget',
         roles: {
@@ -121,7 +128,8 @@ module.exports = {
             'Community-Manager': 'Community Manager',
             'Developer': 'Developer',
             'Designer': 'Designer',
-            'Moderator': 'Moderator'
+            'Moderator': 'Moderator',
+            'Helper': 'Helper'
         }
     },
     create: {
@@ -139,6 +147,10 @@ module.exports = {
             prize: {
                 title: 'Prize',
                 description: 'Enter your giveaway prize'
+            },
+            banner: {
+                title: 'Banner',
+                description: 'Add your Banner'
             },
             enddate: {
                 title: 'End Date',
@@ -161,6 +173,18 @@ module.exports = {
                 title: 'Required Role',
                 description: 'Select the Discord role that can participate in the giveaway.'
             },
+            old: {
+                title: 'Account Older',
+                description: 'How much days should be the account old?'
+            },
+            age: {
+                title: 'Member Age',
+                description: 'How much days should be the user in the server?'
+            },
+            norole: {
+                title: 'Required No Role',
+                description: 'Select the Discord role that cant participate in the giveaway.'
+            },
             invite: {
                 title: 'Number of Invites Required',
                 description: 'Select how many invitations members need to enter the giveaway. (Ex: 3)'
@@ -169,11 +193,20 @@ module.exports = {
                 title: 'Presentation',
                 description: 'If you select "Private" your giveaway will not appear in Discover, but if you select "Public" your giveaway will appear in discovery.'
             },
+            tag: {
+                title: 'Member Tag',
+                description: 'What should be the tag that can participate in the giveaway.'
+            },
+            message: {
+                title: 'Message Limit Required',
+                description: 'What should be the message limit that she needs to enter the giveaway. (Ex: 100)'
+            },
+            
         },
         button: "Submit",
         presentationPrivate: 'Private',
         presentationPublic: 'Public',
-        requirementsDropdownText: 'You searching more options? Lookup the your connections.',
+        requirementsDropdownText: 'Do you want more requirements? Join our Discord server and ask us for new requirements!',
         presentationTippy: 'Important setting',
         unReachTippy: 'This is your right to open a giveaway. You have the right to open {MORE} more giveaways.',
         reachTippy: 'You have reached your giveaway limit.',
@@ -192,14 +225,16 @@ module.exports = {
         dropdown: {
             profile: 'Profile',
             guilds: 'Guilds',
-            connections: 'Connections',
+            daily: 'Daily',
+            upvote: 'Upvote',
             panel: 'Panel',
             redeem: 'Redeem',
             notifications: 'Notifications',
             logout: 'Logout',
             _profile: 'View your profile!',
             _guilds: 'Select a server!',
-            _connections: 'Manage your connections!',
+            _daily: 'Claim your Daily Reward!',
+            _upvote: 'Upvote for GiveAways!',
             _panel: 'Very, very secret :)',
             _redeem: 'Use promo code!',
             _notifications: 'View your Notifications!',
@@ -213,16 +248,16 @@ module.exports = {
             won_part4: "If the prize is invalid, contact the giveaway owner.",
             no_notifications: "No notification here!",
        },
-        connections: {
-            title: 'Connections',
-            description: 'You can manage social media accounts on GiveAways here.',
-            button: {
-                logout: 'Click to logout',
-                connect: 'Connect to <b>{PROVIDER}</b>',
-                connectMini: 'Click to connect',
-                logged: 'Logged in as <b>{ACCOUNT}</b>'
-            }
-        },
+       connections: {
+        title: 'Connections',
+        description: 'You can manage social media accounts on GiveAways here.',
+        button: {
+            logout: 'Click to logout',
+            connect: 'Connect to <b>{PROVIDER}</b>',
+            connectMini: 'Click to connect',
+            logged: 'Logged in as <b>{ACCOUNT}</b>'
+        }
+    },
         redeem: {
             title: 'Redeem',
             description: 'You can redeem your code here!',
