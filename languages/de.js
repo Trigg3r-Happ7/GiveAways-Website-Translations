@@ -65,9 +65,9 @@ module.exports = {
             ]
         },
         advanced: [
-            { placement: "left", imageUrl: 'https://i.imgur.com/lmotpuT.png', title: 'Verbessern Sie Ihre Verlosungen IServers', description: 'Entwickeln Sie Ihren Discord Server organisch weiter mit GiveAways und lassen sie ihn wachsen.'},
-            { placement: "right", imageUrl: 'https://i.imgur.com/aQFJbiI.png', title: 'Sperren Sie Ihre Werbegeschenke', description: "Verschlüsseln Sie Ihre privaten Verlosungen mit GiveAways Verschlüsselungssystem." },
-            { placement: "left", imageUrl: 'https://i.imgur.com/KsBUSAB.png', title: 'Erweitern Sie Ihren Server', description: "Sie können Ihre Server schneller wachsen lassen, indem Sie eine Einladungspflicht zu Ihren Werbegeschenken hinzufügen." },
+            { placement: "left", imageUrl: 'https://i.imgur.com/lmotpuT.png', title: 'Verbessern Sie Ihre Verlosungen In Ihren Discord Servern', description: 'Entwickeln Sie Ihren Discord Server erheblich weiter mit dem  GiveAways Discord Bot und sehen sie zu, wie Ihr Server wächst.'},
+            { placement: "right", imageUrl: 'https://i.imgur.com/aQFJbiI.png', title: 'Sperren Sie Ihre Verlosungen', description: "Verschlüsseln Sie Ihre privaten Verlosungen mit dem Verschlüsselungssystem von GiveAways." },
+            { placement: "left", imageUrl: 'https://i.imgur.com/KsBUSAB.png', title: 'Erweitern Sie Ihren Server', description: "Sie können Ihre Server schneller wachsen lassen, indem Sie eine Einladungspflicht zu Ihren Verlosungen hinzufügen." },
         ],
         statistics: {
             chosen: 'Ausgewählt von <span class="text-amber-500">{server_count}</span> Servern',
