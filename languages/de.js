@@ -13,7 +13,7 @@ module.exports = {
     },
     footer: {
         rights: 'Alle Rechte vorbehalten.',
-        description: 'Der beste Giveaway Bot auf Discord! Verbessern Sie Ihren Discord Server organisch, indem Sie Giveaways kreieren. Es liegt in Ihren Händen...',
+        description: 'Der beste Giveaway Bot auf Discord! Verbessern Sie Ihren Discord Server erheblich, indem Sie Verlosungen nach Ihrem Bedarf erstellen. Es liegt in Ihren Händen...',
         menus: {
             first: {
                 title: 'Wichtig',
@@ -55,13 +55,13 @@ module.exports = {
         },
         features: {
             title: 'Warum <span class="text-amber-500 font-bold">GiveAways</span>?',
-            description: 'Mit GiveAways können Sie Ihren Discord Server verbessern und organische Zuwächse erzielen, indem Sie fortschrittliche Verlosungen erstellen!',
+            description: 'Mit GiveAways, können Sie Ihren Discord Server verbessern und erhebliche Zuwächse erzielen, indem Sie fortschrittliche Verlosungen erstellen!',
             buttonText: 'Zu Discord hinzufügen',
             items: [
-                 { icon: 'fal fa-star', title: 'Einfaches Erstellen bedingter Werbegeschenke', description: 'Sie können die Mitglieder Ihrer Träume in kurzer Zeit haben. Sie können organischen Zuwachs erhalten, indem Sie ein bedingtes Werbegeschenk eröffnen. Warum versuchen Sie nicht, ein Gewinnspiel für mehr Informationen zu eröffnen?' },
-                 { icon: 'fal fa-star', title: 'Erstellen Sie Ihre eigenen Werbegeschenke', description: 'Sie können den Bot schnell zum Server hinzufügen und Ihre eigene Verlosung auf der Website erstellen und anpassen. Über das Dashboard können Sie im Detail überprüfen, wer an der Verlosung teilgenommen hat.'},
-                 { icon: 'fal fa-star', title: 'Werbegeschenke entdecken ', description: 'Sie können an der Verlosung in der Rubrik "Entdecken" teilnehmen und Preise gewinnen, und Sie können die verbleibende Zeit als auch detaillierte Informationen auf dem Panel sehen.' },
-                 { icon: 'fal fa-star', title: 'Selbst Fühlen Special', description: 'Mit dem Kauf von Boost können Sie mehr als 20 Werbegeschenke gleichzeitig auf Ihrem Server verschenken, allerdings können Sie ein Werbegeschenk 20 Mal wiederholen und einbetten. Sie können Ihre Werbegeschenke mit einem Passwort schützen.' }
+                 { icon: 'fal fa-star', title: 'Einfaches Erstellen Bedingter Verlosungen', description: 'Sie können die Mitglieder Ihrer Träume in kurzer Zeit haben. Sie können erheblichen Zuwachs erhalten, indem Sie eine bedingte Verlosung eröffnen. Warum versuchen Sie nicht, eine Verlosung für mehr Informationen zu eröffnen?' },
+                 { icon: 'fal fa-star', title: 'Erstellen Sie Ihre Eigenen Verlosungen', description: 'Sie können den Bot schnell zu Ihrem Server hinzufügen und Ihre eigenen Verlosungen auf der Website erstellen und anpassen. Über das Dashboard können Sie im Detail überprüfen, wer an der Verlosung teilgenommen hat.'},
+                 { icon: 'fal fa-star', title: 'Werbegeschenke entdecken ', description: 'Sie können an der Verlosung in der Rubrik "Entdecken" teilnehmen und Preise gewinnen, außerdem, können Sie die verbleibende Zeit als auch detaillierte Informationen auf dem Panel sehen.' },
+                 { icon: 'fal fa-star', title: 'Sich Selbst Besonders Fühlen', description: 'Mit dem Kauf von Boosts, können Sie mehr als 20 Preise gleichzeitig auf Ihrem Server verlosen, ebenfalls, können Sie Preise 20 Mal wieder verlosen und einbetten. Sie können Ihre Preise mit einem Passwort schützen.' }
             ]
         },
         advanced: [
@@ -81,9 +81,9 @@ module.exports = {
     },
     daily: {
         title: "Tägliche Belohnungen",
-        description: "Beanspruche die Täglichen Belohnungen hier.",
-        your_last_reward_was: "Deine letzte Belohnung war",
-        claim_button: "Beanspruchen"
+        description: "Beanspruchen sie Ihre Täglichen Belohnungen hier.",
+        your_last_reward_was: "Ihre letzte Belohnung war:",
+        claim_button: "Beanspruchen",
     },
     discover: {
         title: 'Entdecken',
