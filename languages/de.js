@@ -47,7 +47,7 @@ module.exports = {
     },
     index: {
         title: 'Der beste Giveaway Bot auf Discord.',
-        description: 'Indem Sie mit GiveAways fortschrittliche Werbegeschenke erstellen, können Sie Ihren Discord Server verbessern und organischen Auftrieb gewinnen!',
+        description: 'Indem Sie mit GiveAways fortschrittliche Verlosungen erstellen, können Sie Ihren Discord Server verbessern und erheblichen Auftrieb gewinnen!',
         buttons: {
             dashboard: 'Kontroll Panel',
             support: 'Support Server',
@@ -88,7 +88,7 @@ module.exports = {
     discover: {
         title: 'Entdecken',
         description: 'Entdecken Sie hier öffentliche Verlosungen und nehmen Sie an Verlosungen teil, um den Preis zu finden und zu gewinnen, den Sie brauchen!',
-        searchInput: 'Suche nach Geschenken, Titel, Servernamen usw.',
+        searchInput: 'Suchen Sie hier nach Geschenken, Titel, Servernamen usw.',
         settings: {
             title: 'Einstellungen',
             description: 'Die Verlosungen sind die Sortiereinstellungen.',
@@ -127,12 +127,12 @@ module.exports = {
         }
     },
     create: {
-        title: 'Erstellen Sie ein Werbegeschenk!',
-        description: 'Verteilen Sie Geschenke an Ihre Mitglieder, indem Sie ein Werbegeschenk erstellen!',
+        title: 'Erstellen Sie eine Verlosung!',
+        description: 'Verteilen Sie Preise an Ihre Server Mitglieder, indem Sie eine Verlosung erstellen!',
         inputs: {
             title: {
                 title: 'Titel',
-                description: 'Geben Sie den Titel Ihres Werbegeschenks ein'
+                description: 'Geben Sie den Titel Ihrer Verlosung ein'
             },
             description: {
                 title: 'Beschreibung',
@@ -140,15 +140,15 @@ module.exports = {
             },
             prize: {
                 title: 'Preis',
-                description: 'Geben Sie Ihren Werbegeschenkpreis ein'
+                description: 'Geben Sie Ihren gewünschten Verlosungspreis ein'
             },
             banner: {
                 title: 'Banner',
-                description: 'Fügen sie ihren Banner hinzu'
+                description: 'Fügen Sie Ihren Banner hinzu'
             },
             enddate: {
                 title: 'Enddatum',
-                description: 'Geben Sie das Datum ein, an dem die Aktion endet'
+                description: 'Geben Sie das Datum ein, an dem die Verlosung endet'
             },
             winners: {
                 title: 'Gewinner Anzahl',
@@ -157,11 +157,11 @@ module.exports = {
             },
             channel: {
                 title: 'Kanal',
-                description: 'Die Werbebotschaft wird in diesem Kanal gesendet.'
+                description: 'Die Verlosungsankündigung, wird in diesem Kanal gesendet.'
             },
             requirements: {
                 title: 'Anforderungen',
-                description: 'Sobald Ihre Mitglieder die von Ihnen festgelegten Bedingungen erfüllen, können sie an der Verlosung teilnehmen'
+                description: 'Sobald Ihre Mitglieder die von Ihnen festgelegten Bedingungen erfüllen, können diese an der Verlosung teilnehmen'
             },
             role: {
                 title: 'Erforderliche Rolle',
