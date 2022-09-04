@@ -83,7 +83,7 @@ module.exports = {
         title: "Tägliche Belohnungen",
         description: "Beanspruchen sie Ihre Täglichen Belohnungen hier.",
         your_last_reward_was: "Ihre letzte Belohnung war:",
-        claim_button: "Beanspruchen",
+        claim_button: "Beanspruchen"
     },
     discover: {
         title: 'Entdecken',
