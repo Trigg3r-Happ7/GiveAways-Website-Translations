@@ -65,7 +65,7 @@ module.exports = {
             ]
         },
         advanced: [
-            { placement: "left", imageUrl: 'https://i.imgur.com/lmotpuT.png', title: 'Verbessern Sie Die Werbegeschenke ihres Discord Servers', description: 'Entwickeln Sie Ihren Discord Server organisch weiter mit GiveAways und lassen sie ihn wachsen.'},
+            { placement: "left", imageUrl: 'https://i.imgur.com/lmotpuT.png', title: 'Verbessern Sie Ihre Verlosungen IServers', description: 'Entwickeln Sie Ihren Discord Server organisch weiter mit GiveAways und lassen sie ihn wachsen.'},
             { placement: "right", imageUrl: 'https://i.imgur.com/aQFJbiI.png', title: 'Sperren Sie Ihre Werbegeschenke', description: "Verschlüsseln Sie Ihre privaten Verlosungen mit GiveAways Verschlüsselungssystem." },
             { placement: "left", imageUrl: 'https://i.imgur.com/KsBUSAB.png', title: 'Erweitern Sie Ihren Server', description: "Sie können Ihre Server schneller wachsen lassen, indem Sie eine Einladungspflicht zu Ihren Werbegeschenken hinzufügen." },
         ],
