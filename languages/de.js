@@ -60,8 +60,8 @@ module.exports = {
             items: [
                  { icon: 'fal fa-star', title: 'Einfaches Erstellen Bedingter Verlosungen', description: 'Sie können die Mitglieder Ihrer Träume in kurzer Zeit haben. Sie können erheblichen Zuwachs erhalten, indem Sie eine bedingte Verlosung eröffnen. Warum versuchen Sie nicht, eine Verlosung für mehr Informationen zu eröffnen?' },
                  { icon: 'fal fa-star', title: 'Erstellen Sie Ihre Eigenen Verlosungen', description: 'Sie können den Bot schnell zu Ihrem Server hinzufügen und Ihre eigenen Verlosungen auf der Website erstellen und anpassen. Über das Dashboard können Sie im Detail überprüfen, wer an der Verlosung teilgenommen hat.'},
-                 { icon: 'fal fa-star', title: 'Werbegeschenke entdecken ', description: 'Sie können an der Verlosung in der Rubrik "Entdecken" teilnehmen und Preise gewinnen, außerdem, können Sie die verbleibende Zeit als auch detaillierte Informationen auf dem Panel sehen.' },
-                 { icon: 'fal fa-star', title: 'Sich Selbst Besonders Fühlen', description: 'Mit dem Kauf von Boosts, können Sie mehr als 20 Preise gleichzeitig auf Ihrem Server verlosen, ebenfalls, können Sie Preise 20 Mal wieder verlosen und einbetten. Sie können Ihre Preise mit einem Passwort schützen.' }
+                 { icon: 'fal fa-star', title: 'Verlosungen Entdecken ', description: 'Sie können an der Verlosung in der Rubrik "Entdecken" teilnehmen und Preise gewinnen, außerdem, können Sie die verbleibende Zeit, als auch detaillierte Informationen auf dem Panel sehen.' },
+                 { icon: 'fal fa-star', title: 'Sich Selbst Besonders Fühlen', description: 'Mit dem Kauf von Boosts, können Sie mehr als 20 Verlosungen gleichzeitig auf Ihrem Server aktiv laufen haben, ebenfalls, können Sie Ihre Verlosungen 20 Mal wiederholen und einbetten. Sie können Ihre Verlosungen mit einem Passwort schützen.' }
             ]
         },
         advanced: [
