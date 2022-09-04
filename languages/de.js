@@ -168,12 +168,12 @@ module.exports = {
                 description: 'Wählen Sie die Discord-Rolle, die an der Verlosung teilnehmen kann.'
             },
             old: {
-                title: 'Account Older',
-                description: 'How much days should be the account old?'
+                title: 'Account Alter',
+                description: 'Wie viel Tage alt, soll der Discord-Account mindestens sein?'
             },
             age: {
-                title: 'Member Age',
-                description: 'How much days should be the user in the server?'
+                title: 'Mitglied Alter',
+                description: 'Wie ?'
             },
             norole: {
                 title: 'Required No Role',
