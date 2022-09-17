@@ -1,3 +1,21 @@
+
+Stoneclane-Development
+/
+giveaways-bot.com
+Private
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Settings
+giveaways-bot.com/lang/en.js
+@JanjyTapYT
+JanjyTapYT Update en.js
+ 1 contributor
+358 lines (357 sloc)  15.2 KB
 module.exports = {
     overview: require("../locales.config.js")["en"],
     navbar: {
@@ -47,7 +65,8 @@ module.exports = {
                 }
             },
         },
-        developedWith: 'Developed with ❤️ by clqu & Swôth & edited by GiveAways Team.',
+        developedWith1: 'Developed with',
+        developedWith2: 'by clqu & Swôth & edited by the GiveAways Team.',
         allServices: 'All services are online.',
         someServices: 'Some services are down.'
     },
@@ -61,12 +80,18 @@ module.exports = {
         },
         features: {
             title: 'Why <span class="text-amber-500 font-bold">GiveAways</span>?',
+            title1: 'Why <span class="text-amber-500 font-bold glow2_emerald">GiveAways</span>?',
+            title2: 'Why <span class="text-amber-500 font-bold glow2_blue">GiveAways</span>?',
+            title3: 'Why <span class="text-amber-500 font-bold glow2_violet">GiveAways</span>?',
+            title4: 'Why <span class="text-amber-500 font-bold glow2_rose">GiveAways</span>?',
+            title5: 'Why <span class="text-amber-500 font-bold glow2_pink">GiveAways</span>?',
+            title6: 'Why <span class="text-amber-500 font-bold glow2_amber">GiveAways</span>?',
             description: 'With GiveAways, you can improve your Discord Server and get organic increases by creating advanced sweepstakes!',
             buttonText: 'Add to Discord',
             items: [
                  { icon: 'fal fa-star', title: 'Easily Create Conditional Giveaway', description: 'You can have the members of your dreams in a short time. You can get organic increase by opening conditional giveaways. Why not try opening a raffle for more information?' },
                  { icon: 'fal fa-star', title: 'Build Your Own Giveaways', description: 'You can quickly add the bot to the server and create and customize your own giveaway on the site. You can check who has participated in the giveaway in detail via the Dashboard.'},
-                 { icon: 'fal fa-star', title: 'Discover Giveaways ', description: 'You can participate in the giveaway according to you in the "Discover" section and win prizes, you can also see the remaining time and other detailed information on the panel.' },
+                 { icon: 'fal fa-star', title: 'Discover Giveaways ', description: 'You can participate in the giveaway according to you in the Discover section and win prizes, and you can see the remaining time and detailed information on the panel.' },
                  { icon: 'fal fa-star', title: 'Self Feel Special', description: 'By purchasing Boost, you can giveaway more than 20 simultaneous giveaways on your server, however, you can repeat and embed 20 times on a giveaway. You can make it safe by adding a password to your giveaways.' }
             ]
         },
@@ -76,7 +101,13 @@ module.exports = {
             { placement: "left", imageUrl: 'https://i.imgur.com/KsBUSAB.png', title: 'Grow your server', description: "You can grow your servers faster by adding an invitation requirement to their giveaways." }
         ],
         statistics: {
-            chosen: 'Chosen by <span class="text-amber-500">{server_count}</span> guilds',
+            chosen: 'Chosen by <span class="invisible md:visible text-xl text-white font-semibold">{server_count}</span> guilds',
+            chosen1: 'Chosen by <span class="text-amber-500 glow3_emerald">{server_count}</span> guilds',
+            chosen2: 'Chosen by <span class="text-amber-500 glow3_blue">{server_count}</span> guilds',
+            chosen3: 'Chosen by <span class="text-amber-500 glow3_violet">{server_count}</span> guilds',
+            chosen4: 'Chosen by <span class="text-amber-500 glow3_rose">{server_count}</span> guilds',
+            chosen5: 'Chosen by <span class="text-amber-500 glow3_pink">{server_count}</span> guilds',
+            chosen6: 'Chosen by <span class="text-amber-500 glow3_amber">{server_count}</span> guilds',
             labels: {
                 guilds: 'Guilds',
                 members: 'Members',
