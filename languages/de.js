@@ -13,7 +13,7 @@ module.exports = {
     },
     footer: {
         rights: 'Alle Rechte vorbehalten.',
-        description: 'Der beste Giveaway Bot auf Discord! Verbessern Sie Ihren Discord Server erheblich, indem Sie Verlosungen nach Ihrem Bedarf erstellen. Es liegt in Ihren Händen...',
+        description: 'Der beste Giveaway Bot auf Discord! Verbessern Sie Ihren Discord Server organisch, indem Sie Giveaways kreieren. Es liegt in Ihren Händen...',
         menus: {
             first: {
                 title: 'Wichtig',
@@ -27,7 +27,7 @@ module.exports = {
             second: {
                 title: 'GiveAways',
                 items: {
-                    partners: 'Partner',
+                    partners: 'Partners',
                     team: 'Team',
                     status: 'Status',
                     upvote: 'Upvote',
@@ -41,13 +41,14 @@ module.exports = {
                 }
             },
         },
-        developedWith: 'Entwickelt mit ❤️ von clqu & Swôth & bearbeited vom GiveAways Team.',
+        developedWith1: 'Entwickelt mit',
+        developedWith2: 'von clqu & Swôth & bearbeited vom GiveAways Team.',
         allServices: 'Alle Dienste sind online.',
         someServices: 'Ein paar Dienste sind offline.'
     },
     index: {
         title: 'Der beste Giveaway Bot auf Discord.',
-        description: 'Indem Sie mit GiveAways fortschrittliche Verlosungen erstellen, können Sie Ihren Discord Server verbessern und erheblichen Auftrieb gewinnen!',
+        description: 'Indem Sie mit GiveAways fortschrittliche Werbegeschenke erstellen, können Sie Ihren Discord Server verbessern und organischen Auftrieb gewinnen!',
         buttons: {
             dashboard: 'Kontroll Panel',
             support: 'Support Server',
@@ -55,22 +56,34 @@ module.exports = {
         },
         features: {
             title: 'Warum <span class="text-amber-500 font-bold">GiveAways</span>?',
-            description: 'Mit GiveAways, können Sie Ihren Discord Server verbessern und erhebliche Zuwächse erzielen, indem Sie fortschrittliche Verlosungen erstellen!',
+            title1: 'Warum <span class="text-amber-500 font-bold glow2_emerald">GiveAways</span>?',
+            title2: 'Warum <span class="text-amber-500 font-bold glow2_blue">GiveAways</span>?',
+            title3: 'Warum <span class="text-amber-500 font-bold glow2_violet">GiveAways</span>?',
+            title4: 'Warum <span class="text-amber-500 font-bold glow2_rose">GiveAways</span>?',
+            title5: 'Warum <span class="text-amber-500 font-bold glow2_pink">GiveAways</span>?',
+            title6: 'Warum <span class="text-amber-500 font-bold glow2_amber">GiveAways</span>?',
+            description: 'Mit GiveAways können Sie Ihren Discord Server verbessern und organische Zuwächse erzielen, indem Sie fortschrittliche Verlosungen erstellen!',
             buttonText: 'Zu Discord hinzufügen',
             items: [
-                 { icon: 'fal fa-star', title: 'Einfaches Erstellen Bedingter Verlosungen', description: 'Sie können die Mitglieder Ihrer Träume in kurzer Zeit haben. Sie können erheblichen Zuwachs erhalten, indem Sie eine bedingte Verlosung eröffnen. Warum versuchen Sie nicht, eine Verlosung für mehr Informationen zu eröffnen?' },
-                 { icon: 'fal fa-star', title: 'Erstellen Sie Ihre Eigenen Verlosungen', description: 'Sie können den Bot schnell zu Ihrem Server hinzufügen und Ihre eigenen Verlosungen auf der Website erstellen und anpassen. Über das Dashboard können Sie im Detail überprüfen, wer an der Verlosung teilgenommen hat.'},
-                 { icon: 'fal fa-star', title: 'Verlosungen Entdecken ', description: 'Sie können an der Verlosung in der Rubrik "Entdecken" teilnehmen und Preise gewinnen, außerdem, können Sie die verbleibende Zeit, als auch detaillierte Informationen auf dem Panel sehen.' },
-                 { icon: 'fal fa-star', title: 'Sich Selbst Besonders Fühlen', description: 'Mit dem Kauf von Boosts, können Sie mehr als 20 Verlosungen gleichzeitig auf Ihrem Server aktiv laufen haben, ebenfalls, können Sie Ihre Verlosungen 20 Mal wiederholen und einbetten. Sie können Ihre Verlosungen mit einem Passwort schützen.' }
+                 { icon: 'fal fa-star', title: 'Einfaches Erstellen bedingter Werbegeschenke', description: 'Sie können die Mitglieder Ihrer Träume in kurzer Zeit haben. Sie können organischen Zuwachs erhalten, indem Sie ein bedingtes Werbegeschenk eröffnen. Warum versuchen Sie nicht, ein Gewinnspiel für mehr Informationen zu eröffnen?' },
+                 { icon: 'fal fa-star', title: 'Erstellen Sie Ihre eigenen Werbegeschenke', description: 'Sie können den Bot schnell zum Server hinzufügen und Ihre eigene Verlosung auf der Website erstellen und anpassen. Über das Dashboard können Sie im Detail überprüfen, wer an der Verlosung teilgenommen hat.'},
+                 { icon: 'fal fa-star', title: 'Werbegeschenke entdecken ', description: 'Sie können an der Verlosung in der Rubrik "Entdecken" teilnehmen und Preise gewinnen, und Sie können die verbleibende Zeit als auch detaillierte Informationen auf dem Panel sehen.' },
+                 { icon: 'fal fa-star', title: 'Selbst Fühlen Special', description: 'Mit dem Kauf von Boost können Sie mehr als 20 Werbegeschenke gleichzeitig auf Ihrem Server verschenken, allerdings können Sie ein Werbegeschenk 20 Mal wiederholen und einbetten. Sie können Ihre Werbegeschenke mit einem Passwort schützen.' }
             ]
         },
         advanced: [
-            { placement: "left", imageUrl: 'https://i.imgur.com/lmotpuT.png', title: 'Verbessern Sie Ihre Verlosungen In Ihren Discord Servern', description: 'Entwickeln Sie Ihren Discord Server erheblich weiter mit dem  GiveAways Discord Bot und sehen sie zu, wie Ihr Server wächst.'},
-            { placement: "right", imageUrl: 'https://i.imgur.com/aQFJbiI.png', title: 'Sperren Sie Ihre Verlosungen', description: "Verschlüsseln Sie Ihre privaten Verlosungen mit dem Verschlüsselungssystem von GiveAways." },
-            { placement: "left", imageUrl: 'https://i.imgur.com/KsBUSAB.png', title: 'Erweitern Sie Ihren Server', description: "Sie können Ihre Server schneller wachsen lassen, indem Sie eine Einladungspflicht zu Ihren Verlosungen hinzufügen." },
+            { placement: "left", imageUrl: 'https://i.imgur.com/lmotpuT.png', title: 'Verbessern Sie Die Werbegeschenke ihres Discord Servers', description: 'Entwickeln Sie Ihren Discord Server organisch weiter mit GiveAways und lassen sie ihn wachsen.'},
+            { placement: "right", imageUrl: 'https://i.imgur.com/aQFJbiI.png', title: 'Sperren Sie Ihre Werbegeschenke', description: "Verschlüsseln Sie Ihre privaten Verlosungen mit GiveAways Verschlüsselungssystem." },
+            { placement: "left", imageUrl: 'https://i.imgur.com/KsBUSAB.png', title: 'Erweitern Sie Ihren Server', description: "Sie können Ihre Server schneller wachsen lassen, indem Sie eine Einladungspflicht zu Ihren Werbegeschenken hinzufügen." },
         ],
         statistics: {
-            chosen: 'Ausgewählt von <span class="text-amber-500">{server_count}</span> Servern',
+            chosen: 'Ausgewählt von <span class="invisible md:visible text-xl text-white font-semibold">{server_count}</span> Servern',
+            chosen1: 'Ausgewählt von <span class="text-amber-500 glow3_emerald">{server_count}</span> Servern',
+            chosen2: 'Ausgewählt von <span class="text-amber-500 glow3_blue">{server_count}</span> Servern',
+            chosen3: 'Ausgewählt von <span class="text-amber-500 glow3_violet">{server_count}</span> Servern',
+            chosen4: 'Ausgewählt von <span class="text-amber-500 glow3_rose">{server_count}</span> Servern',
+            chosen5: 'Ausgewählt von <span class="text-amber-500 glow3_pink">{server_count}</span> Servern',
+            chosen6: 'Ausgewählt von <span class="text-amber-500 glow3_amber">{server_count}</span> Servern',
             labels: {
                 guilds: 'Server',
                 members: 'Nutzer',
@@ -81,14 +94,14 @@ module.exports = {
     },
     daily: {
         title: "Tägliche Belohnungen",
-        description: "Beanspruchen sie Ihre Täglichen Belohnungen hier.",
-        your_last_reward_was: "Ihre letzte Belohnung war:",
+        description: "Beanspruche die Täglichen Belohnungen hier.",
+        your_last_reward_was: "Deine letzte Belohnung war",
         claim_button: "Beanspruchen"
     },
     discover: {
         title: 'Entdecken',
         description: 'Entdecken Sie hier öffentliche Verlosungen und nehmen Sie an Verlosungen teil, um den Preis zu finden und zu gewinnen, den Sie brauchen!',
-        searchInput: 'Suchen Sie hier nach Geschenken, Titel, Servernamen usw.',
+        searchInput: 'Suche nach Geschenken, Titel, Servernamen usw.',
         settings: {
             title: 'Einstellungen',
             description: 'Die Verlosungen sind die Sortiereinstellungen.',
@@ -127,12 +140,12 @@ module.exports = {
         }
     },
     create: {
-        title: 'Erstellen Sie eine Verlosung!',
-        description: 'Verteilen Sie Preise an Ihre Server Mitglieder, indem Sie eine Verlosung erstellen!',
+        title: 'Erstellen Sie ein Werbegeschenk!',
+        description: 'Verteilen Sie Geschenke an Ihre Mitglieder, indem Sie ein Werbegeschenk erstellen!',
         inputs: {
             title: {
                 title: 'Titel',
-                description: 'Geben Sie den Titel Ihrer Verlosung ein'
+                description: 'Geben Sie den Titel Ihres Werbegeschenks ein'
             },
             description: {
                 title: 'Beschreibung',
@@ -140,15 +153,15 @@ module.exports = {
             },
             prize: {
                 title: 'Preis',
-                description: 'Geben Sie Ihren gewünschten Verlosungspreis ein'
+                description: 'Geben Sie Ihren Werbegeschenkpreis ein'
             },
             banner: {
                 title: 'Banner',
-                description: 'Fügen Sie Ihren Banner hinzu'
+                description: 'Fügen sie ihren Banner hinzu'
             },
             enddate: {
                 title: 'Enddatum',
-                description: 'Geben Sie das Datum ein, an dem die Verlosung endet'
+                description: 'Geben Sie das Datum ein, an dem die Aktion endet'
             },
             winners: {
                 title: 'Gewinner Anzahl',
@@ -157,23 +170,23 @@ module.exports = {
             },
             channel: {
                 title: 'Kanal',
-                description: 'Die Verlosungsankündigung, wird in diesem Kanal gesendet.'
+                description: 'Die Werbebotschaft wird in diesem Kanal gesendet.'
             },
             requirements: {
                 title: 'Anforderungen',
-                description: 'Sobald Ihre Mitglieder die von Ihnen festgelegten Bedingungen erfüllen, können diese an der Verlosung teilnehmen'
+                description: 'Sobald Ihre Mitglieder die von Ihnen festgelegten Bedingungen erfüllen, können sie an der Verlosung teilnehmen'
             },
             role: {
                 title: 'Erforderliche Rolle',
                 description: 'Wählen Sie die Discord-Rolle, die an der Verlosung teilnehmen kann.'
             },
             old: {
-                title: 'Account Alter',
-                description: 'Wie viel Tage alt, soll der Discord-Account mindestens sein?'
+                title: 'Account Older',
+                description: 'How much days should be the account old?'
             },
             age: {
-                title: 'Mitglied Alter',
-                description: 'Wie ?'
+                title: 'Member Age',
+                description: 'How much days should be the user in the server?'
             },
             norole: {
                 title: 'Required No Role',
