@@ -1,21 +1,3 @@
-
-Stoneclane-Development
-/
-giveaways-bot.com
-Private
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Settings
-giveaways-bot.com/lang/en.js
-@JanjyTapYT
-JanjyTapYT Update en.js
- 1 contributor
-358 lines (357 sloc)  15.2 KB
 module.exports = {
     overview: require("../locales.config.js")["en"],
     navbar: {
