@@ -22,6 +22,7 @@ module.exports = {
                     dashboard: 'Dashboard',
                     support: 'Support Server',
                     add: 'Add Bot'
+                   
                 }
             },
             second: {
