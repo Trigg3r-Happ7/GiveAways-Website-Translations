@@ -79,9 +79,9 @@ module.exports = {
             ]
         },
         advanced: [
-            { placement: "left", imageUrl: 'https://i.imgur.com/lmotpuT.png', title: 'Improve your giveaways on your Discord Server', description: 'Develop and grow your Discord srver organically with GiveAways.'},
-            { placement: "right", imageUrl: 'https://i.imgur.com/aQFJbiI.png', title: 'Lock your giveaways', description: "Privately encrypt your giveaways with GiveAways's lock system." },
-            { placement: "left", imageUrl: 'https://i.imgur.com/KsBUSAB.png', title: 'Grow your server', description: "You can grow your servers faster by adding an invitation requirement to your gways." }
+            { placement: "left", imageUrl: 'https://i.imgur.com/lmotpuT.png', title: 'Improve Your Giveaways', description: 'Develop and grow your Discord server organically with GiveAways.'},
+            { placement: "right", imageUrl: 'https://i.imgur.com/aQFJbiI.png', title: 'Lock Your Giveaways', description: "Privately encrypt your giveaways with GiveAways's lock system." },
+            { placement: "left", imageUrl: 'https://i.imgur.com/KsBUSAB.png', title: 'Grow Your Server', description: "You can grow your server faster by adding an invitation requirement to your giveaways." }
         ],
         statistics: {
             chosen: 'Chosen by <span class="invisible md:visible text-xl text-white font-semibold">{server_count}</span> guilds',
