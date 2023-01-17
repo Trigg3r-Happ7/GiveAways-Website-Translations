@@ -13,7 +13,7 @@ module.exports = {
     },
     footer: {
         rights: 'Alle Rechte vorbehalten.',
-        description: 'Der beste Giveaway Bot auf Discord! Verbessern Sie Ihren Discord Server organisch, indem Sie Giveaways kreieren. Es liegt in Ihren Händen...',
+        description: 'Der beste giveaway bot auf Discord! Verbessern Sie Ihren Discord Server organisch, indem Sie Giveaways kreieren. Es liegt in Ihren Händen...',
         menus: {
             first: {
                 title: 'Wichtig',
