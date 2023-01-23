@@ -13,7 +13,7 @@ module.exports = {
     },
     footer: {
         rights: 'All rights reserved.',
-        description: 'The best giveaway bot on Discord. Organically improve your Discord server by creating giveaways. It\'s in your hands...',
+        description: 'The best giveaway bot on Discord. Organically improve your Discord server by creating giveaways. It\'s all in your hands...',
         menus: {
             first: {
                 title: 'Important',
@@ -118,7 +118,7 @@ module.exports = {
             },
             sort: {
                 title: 'Sort',
-                miniNote: 'sorting by prize',
+                miniNote: 'sorting by the alphabetic order of the prize',
                 description: 'Allows you to change the listing order.'
             }
         },
