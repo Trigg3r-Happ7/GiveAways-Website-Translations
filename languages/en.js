@@ -351,7 +351,7 @@ module.exports = {
             unboost: 'Unboosted the server.',
             giveaway_delete: 'Deleted a giveaway.',
             giveaway_create: 'Started a giveaway.',
-            giveaway_finish: 'Giveaway a finished.',
+            giveaway_finish: 'Finished a giveaway.',
             giveaway_join: 'Joined the giveaway.',
             giveawaY_reroll: 'Rerolled a giveaway.'
         },
