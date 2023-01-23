@@ -73,9 +73,9 @@ module.exports = {
             buttonText: 'Add to Discord',
             items: [
                  { icon: 'fal fa-star', title: 'Easily Create Conditional Giveaways', description: 'You can have the amount of server members, you were only able to dream of, in an extremely short amount of time. You can get organic increase by opening conditional giveaways. Why not try opening a raffle for more information?' },
-                 { icon: 'fal fa-star', title: 'Build Your Own Giveaways', description: 'You can quickly add the bot to your server and create as well as customize your own giveaways to your desires on our website or directly by using the bot commands of the GiveAways bot in your server. You can check who has participated in the giveaway in detail via the dashboard on our website.'},
+                 { icon: 'fal fa-star', title: 'Build Your Own Giveaways', description: 'You can quickly add the bot to your server and create as well as customize your own giveaways to your desires on our website or directly by using the bot commands of the GiveAways bot in your server. You can check which server members participated in the giveaway in detail via the dashboard on our website.'},
                  { icon: 'fal fa-star', title: 'Discover Giveaways ', description: 'You can also participate in public giveaways if you\'d like in the "Discover" section and win prizes. You can see the remaining time and other detailed information on the panel.' },
-                 { icon: 'fal fa-star', title: 'Feel Special Yourself', description: 'By purchasing boosts, you can create more than 20 simultaneous giveaways on your server, you\'ll also be able repeat and embed a giveaway 20 times. You can ensure safety by adding a password to your giveaways.' }
+                 { icon: 'fal fa-star', title: 'Feel Special Yourself', description: 'By purchasing boosts, you can create more than 20 simultaneous giveaways on your server! You\'ll also be able repeat and embed a giveaway 20 times. You can ensure safety by adding a password to your giveaways.' }
             ]
         },
         advanced: [
@@ -111,7 +111,7 @@ module.exports = {
         searchInput: 'Search by gifts, title, server name, etc.',
         settings: {
             title: 'Settings',
-            description: 'The giveaway are the sorting settings.',
+            description: 'You can find giveaways quicker by using the sorting settings.',
             amount: {
                 title: 'Amount',
                 description: 'Allows you to change the number of giveaway to be listed.'
