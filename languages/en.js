@@ -114,7 +114,7 @@ module.exports = {
             description: 'You can find giveaways quicker by using the sorting settings.',
             amount: {
                 title: 'Amount',
-                description: 'Allows you to change the number of giveaway to be listed.'
+                description: 'Allows you to change the amount of giveaways to be listed.'
             },
             sort: {
                 title: 'Sort',
@@ -128,8 +128,8 @@ module.exports = {
         reqs: 'Requirements'
     },
     spotify: {
-      not: 'Not listening anything on Spotify.',
-      current: 'Listening on Spotify.'
+      not: 'Currently not listening to anything on Spotify.',
+      current: 'Listening to something on Spotify.'
     },
     team: {
         title: 'Get to know the heroes!',
@@ -249,9 +249,9 @@ module.exports = {
             _guilds: 'Select a server!',
             _daily: 'Claim your Daily Reward!',
             _upvote: 'Upvote for GiveAways!',
-            _panel: 'Very, very secret :)',
-            _redeem: 'Use promo code!',
-            _notifications: 'View your Notifications!',
+            _panel: 'Very, very secret... ;)',
+            _redeem: 'Use promo codes!',
+            _notifications: 'View your notifications!',
             _logout: 'Terminate the website session!'
         },
         notifications: {
@@ -264,7 +264,7 @@ module.exports = {
        },
        connections: {
         title: 'Connections',
-        description: 'You can manage social media accounts on GiveAways here.',
+        description: 'You can manage your social media accounts on GiveAways here.',
         button: {
             logout: 'Click to logout',
             connect: 'Connect to <b>{PROVIDER}</b>',
