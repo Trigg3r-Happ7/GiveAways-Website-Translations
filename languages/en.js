@@ -212,8 +212,8 @@ module.exports = {
                 description: 'Select the user tag that should be allowed to participate in the giveaway.'
             },
             message: {
-                title: 'Message Limit Required',
-                description: 'What should be the message limit that she needs to enter the giveaway. (Ex: 100)'
+                title: 'Amount Of Messages Required',
+                description: 'Select the amount of messages that a user must\'ve sent in the server to be allowed to enter the giveaway. (Ex: 100)'
             },
             
         },
