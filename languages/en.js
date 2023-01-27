@@ -51,7 +51,7 @@ module.exports = {
         developedWith1: 'Developed with',
         developedWith2: 'by clqu & Swôth & edited by the GiveAways Team.',
         allServices: 'All services are online.',
-        someServices: 'Some services are down.'
+        someServices: 'Some services seem to be offline.',
     },
     index: {
         title: 'The best giveaway bot on Discord!',
