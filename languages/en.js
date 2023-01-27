@@ -193,7 +193,7 @@ module.exports = {
             },
             age: {
                 title: 'Member Age',
-                description: 'For how many days should the user have been in the server?'
+                description: 'Select the amount of days the user must\'ve been in the server for to be allowed to join the giveaway.'
             },
             norole: {
                 title: 'Blacklisted Roles',
