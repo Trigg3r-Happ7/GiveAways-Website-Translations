@@ -185,10 +185,10 @@ module.exports = {
             },
             role: {
                 title: 'Required Role',
-                description: 'Select the Discord role that can participate in the giveaway.'
+                description: 'Select the Discord roles that are allowed to participate in the giveaway.'
             },
             old: {
-                title: 'Account Older',
+                title: 'Account Age',
                 description: 'How many days should the account be old?'
             },
             age: {
@@ -197,7 +197,7 @@ module.exports = {
             },
             norole: {
                 title: 'Blacklisted Roles',
-                description: 'Select the Discord role that isn//t participate in the giveaway.'
+                description: 'Select the Discord roles that aren\'t allowed to participate in the giveaway.'
             },
             invite: {
                 title: 'Number of Invites Required',
