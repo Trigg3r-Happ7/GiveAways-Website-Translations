@@ -164,15 +164,15 @@ module.exports = {
             },
             banner: {
                 title: 'Banner',
-                description: 'Add your Banner'
+                description: 'Add your giveaway banner'
             },
             enddate: {
                 title: 'End Date',
                 description: 'Enter the date the giveaway will end'
             },
             winners: {
-                title: 'Winners Count',
-                description: 'Enter the winners count',
+                title: 'Amount Of Winners',
+                description: 'Enter the amount of winners',
                 recommendet: 'Recommended: 1 Winner'
             },
             channel: {
@@ -189,15 +189,15 @@ module.exports = {
             },
             old: {
                 title: 'Account Older',
-                description: 'How much days should be the account old?'
+                description: 'How many days should the account be old?'
             },
             age: {
                 title: 'Member Age',
-                description: 'How much days should be the user in the server?'
+                description: 'For how many days should the user have been in the server?'
             },
             norole: {
-                title: 'Required No Role',
-                description: 'Select the Discord role that cant participate in the giveaway.'
+                title: 'Blacklisted Roles',
+                description: 'Select the Discord role that isn//t participate in the giveaway.'
             },
             invite: {
                 title: 'Number of Invites Required',
