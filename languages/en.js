@@ -181,7 +181,7 @@ module.exports = {
             },
             requirements: {
                 title: 'Requirements',
-                description: 'Once your members meet the conditions you set, they will be able to participate in the giveaway'
+                description: 'Once your members meet the conditions you set, they will be able to participate in the giveaway.'
             },
             role: {
                 title: 'Required Role',
@@ -189,7 +189,7 @@ module.exports = {
             },
             old: {
                 title: 'Account Age',
-                description: 'How many days should the account be old?'
+                description: 'Select the amout of days the Discord account of the server member must be old to joinn the giveaway.'
             },
             age: {
                 title: 'Member Age',
