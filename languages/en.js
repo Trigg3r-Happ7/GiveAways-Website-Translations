@@ -205,11 +205,11 @@ module.exports = {
             },
             presentation: {
                 title: 'Presentation',
-                description: 'If you select "Private" your giveaway will not appear in Discover, but if you select "Public" your giveaway will appear in discovery.'
+                description: 'If you select "Private" your giveaway will not appear in the "Discover" section, but if you select "Public" your giveaway will appear in the "Discovery" section.'
             },
             tag: {
                 title: 'Member Tag',
-                description: 'What should be the tag that can participate in the giveaway.'
+                description: 'Select the user tag that should be allowed to participate in the giveaway.'
             },
             message: {
                 title: 'Message Limit Required',
