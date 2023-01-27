@@ -222,7 +222,7 @@ module.exports = {
         presentationPublic: 'Public',
         requirementsDropdownText: 'Do you want more requirements? Join our Discord server and ask us for new requirements!',
         presentationTippy: 'Important setting',
-        unReachTippy: 'This is your right to open a giveaway. You have the right to open {MORE} more giveaways.',
+        unReachTippy: 'This is your right to create a giveaway. You have the right to create {MORE} more giveaways.',
         reachTippy: 'You have reached your giveaway limit.',
         reachedText: 'You\'ve reached the giveaway limit.<br /> <span class="text-amber-400/50 ml-1 hover:underline cursor-pointer"><i class="fad fa-diamond"></i> Boost</span> the server to more limit.'
     },
@@ -285,7 +285,7 @@ module.exports = {
         managing: 'You are managing:',
         pages: 'Sites',
         more: 'More',
-        not_autorized_message: 'You are not autorized to manage this server!',
+        not_autorized_message: 'You are not authorized to manage this server!',
         selectServer: {
             title: 'Select Server',
             description: 'If your server is not here, <u>login</u> again!',
@@ -297,17 +297,17 @@ module.exports = {
         },
         settings: {
             free: 'Free',
-            soon: 'COMMING SOON',
+            soon: 'COMING SOON',
             _soon: 'Only those who have reached the last boost level can use it.',
             embed_editor_title: 'Embed Editor',
             bot_name: 'GiveAways',
             bot_label: 'bot',
             today_at: 'Today at',
-            youcan: 'You can add text to areas with italics and low opacity. You can edit the text you want by clicking on it. (Required fields cannot be edited!)',
+            youcan: 'You can add text to areas with italics and low opacity. You can edit the text if you want by clicking on it. (Required fields cannot be edited!)',
             reset: 'Reset',
             save: 'Save',
             logs_title: 'Logs',
-            logs_desc: 'Post Logs to a Discord Channel',
+            logs_desc: 'Post logs to a Discord channel',
             enabled: 'Enabled',
             disabled: 'Disabled',
             log_channel_title: 'Log Channel'
@@ -340,7 +340,7 @@ module.exports = {
         },
         auditLog: {
             title: 'Audit Log',
-            description: 'Audit log of changes made to GiveAways on this server can be seen here.',
+            description: 'Changes made to GiveAways on this server can be seen here.',
             table: {
                 user: 'User',
                 date: 'Date',
