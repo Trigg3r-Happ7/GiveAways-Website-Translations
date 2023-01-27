@@ -13,7 +13,7 @@ module.exports = {
     },
     footer: {
         rights: 'All rights reserved.',
-        description: 'The best giveaway bot on Discord. Organically improve your Discord server by creating giveaways. It\'s all in your hands...',
+        description: 'The best giveaway bot on Discord. Massively improve your Discord server by creating giveaways. It\'s all in your hands...',
         menus: {
             first: {
                 title: 'Important',
@@ -72,14 +72,14 @@ module.exports = {
             description: 'With GiveAways, you can improve your Discord Server and get organic increases by creating advanced sweepstakes!',
             buttonText: 'Add to Discord',
             items: [
-                 { icon: 'fal fa-star', title: 'Easily Create Conditional Giveaways', description: 'You can have the amount of server members, you were only able to dream of, in an extremely short amount of time. You can get organic increase by opening conditional giveaways. Why not try opening a raffle for more information?' },
+                 { icon: 'fal fa-star', title: 'Easily Create Conditional Giveaways', description: 'You can have the amount of server members, you were only able to dream of, in an extremely short amount of time. You can get massive increases of server members by creating conditional giveaways. Why not try opening a raffle for more information?' },
                  { icon: 'fal fa-star', title: 'Build Your Own Giveaways', description: 'You can quickly add the bot to your server and create as well as customize your own giveaways to your desires on our website or directly by using the bot commands of the GiveAways bot in your server. You can check which server members participated in the giveaway in detail via the dashboard on our website.'},
                  { icon: 'fal fa-star', title: 'Discover Giveaways ', description: 'You can also participate in public giveaways if you\'d like in the "Discover" section and win prizes. You can see the remaining time and other detailed information on the panel.' },
                  { icon: 'fal fa-star', title: 'Feel Special Yourself', description: 'By purchasing boosts, you can create more than 20 simultaneous giveaways on your server! You\'ll also be able repeat and embed a giveaway 20 times. You can ensure safety by adding a password to your giveaways.' }
             ]
         },
         advanced: [
-            { placement: "left", imageUrl: 'https://i.imgur.com/lmotpuT.png', title: 'Improve Your Giveaways', description: 'Develop and grow your Discord server organically with GiveAways.'},
+            { placement: "left", imageUrl: 'https://i.imgur.com/lmotpuT.png', title: 'Improve Your Giveaways', description: 'Develop and grow your Discord server massively with GiveAways.'},
             { placement: "right", imageUrl: 'https://i.imgur.com/aQFJbiI.png', title: 'Lock Your Giveaways', description: "Privately encrypt your giveaways with GiveAways's lock system." },
             { placement: "left", imageUrl: 'https://i.imgur.com/KsBUSAB.png', title: 'Grow Your Server', description: "You can grow your server faster by adding an invitation requirement to your giveaways." }
         ],
