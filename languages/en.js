@@ -352,7 +352,7 @@ module.exports = {
             giveaway_delete: 'Deleted a giveaway.',
             giveaway_create: 'Started a giveaway.',
             giveaway_finish: 'Finished a giveaway.',
-            giveaway_join: 'Joined the giveaway.',
+            giveaway_join: 'Joined a giveaway.',
             giveawaY_reroll: 'Rerolled a giveaway.'
         },
     },
