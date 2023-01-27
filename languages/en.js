@@ -185,11 +185,11 @@ module.exports = {
             },
             role: {
                 title: 'Required Role',
-                description: 'Select the Discord roles that are allowed to participate in the giveaway.'
+                description: 'Select the Discord roles that are allowed to join the giveaway.'
             },
             old: {
                 title: 'Account Age',
-                description: 'Select the amout of days the Discord account of the server member must be old to joinn the giveaway.'
+                description: 'Select the amout of days the Discord account of the server member must be old to join the giveaway.'
             },
             age: {
                 title: 'Member Age',
@@ -204,7 +204,7 @@ module.exports = {
                 description: 'Select the amount of invitations the member must have to be allowed to join the giveaway. (Ex: 3)'
             },
             presentation: {
-                title: 'Presentation',
+                title: 'Privacy Settings',
                 description: 'If you select "Private" your giveaway will not appear in the "Discover" section, but if you select "Public" your giveaway will appear in the "Discovery" section.'
             },
             tag: {
