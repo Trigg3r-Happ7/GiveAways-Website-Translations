@@ -55,7 +55,7 @@ module.exports = {
     },
     index: {
         title: 'The best giveaway bot on Discord!',
-        description: 'By creating advanced giveaways with GiveAways, you can improve your Discord Server and gain organic lift!',
+        description: 'By creating advanced giveaways with GiveAways, you can improve your Discord server and gain a massive increase in server members!',
         buttons: {
             dashboard: 'Dashboard',
             support: 'Support Server',
