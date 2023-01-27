@@ -197,11 +197,11 @@ module.exports = {
             },
             norole: {
                 title: 'Blacklisted Roles',
-                description: 'Select the Discord roles that aren\'t allowed to participate in the giveaway.'
+                description: 'Select the Discord roles that aren\'t allowed to join the giveaway.'
             },
             invite: {
                 title: 'Amount Of Required Invites',
-                description: 'Select how many invitations the member should\'ve to be allowed to enter the giveaway. (Ex: 3)'
+                description: 'Select the amount of invitations the member must have to be allowed to join the giveaway. (Ex: 3)'
             },
             presentation: {
                 title: 'Presentation',
@@ -209,11 +209,11 @@ module.exports = {
             },
             tag: {
                 title: 'Member Tag',
-                description: 'Select the user tag that should be allowed to participate in the giveaway.'
+                description: 'Select the tag the server member must have to be allowed to join the giveaway.'
             },
             message: {
                 title: 'Amount Of Messages Required',
-                description: 'Select the amount of messages that a user must\'ve sent in the server to be allowed to enter the giveaway. (Ex: 100)'
+                description: 'Select the amount of messages that a user must have sent in the server to be allowed to join the giveaway. (Ex: 100)'
             },
             
         },
