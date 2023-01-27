@@ -200,8 +200,8 @@ module.exports = {
                 description: 'Select the Discord roles that aren\'t allowed to participate in the giveaway.'
             },
             invite: {
-                title: 'Number of Invites Required',
-                description: 'Select how many invitations members need to enter the giveaway. (Ex: 3)'
+                title: 'Amount Of Required Invites',
+                description: 'Select how many invitations the member should\'ve to be allowed to enter the giveaway. (Ex: 3)'
             },
             presentation: {
                 title: 'Presentation',
